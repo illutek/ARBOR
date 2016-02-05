@@ -1,0 +1,57 @@
+//================================
+// @@ ++ Left Side structure
+//================================
+
+.left-fixed-container {
+  width: 50%;
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  padding: 0 50px 0;
+  background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
+  background-size: cover;
+  .site-info {
+    text-align: right;
+    .logo {
+      float: right;
+      margin: 50px 0px;
+    }
+    .core-business {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      background: $greenMain;
+      display: inline-block;
+      color: #ffffff;
+      padding: 5px 10px;
+      font-size: 1.5em; //24px / 16px
+    }
+    .site-name {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 900;
+      font-size: 4.8125em; //77px / 16px
+      color: #ffffff;
+      float: right;
+      margin: 50px 0px;
+    }
+  }
+  .menu-container {
+    text-align: right;
+    .main-menu {
+      background: #000000;
+      @include opacity-decimal(.6);
+      display: inline-block;
+      font-size: 1.25em; //20px / 16px
+      padding: 20px;
+      a {
+        color: #ffffff;
+        &:hover {
+          text-decoration: none;
+        }
+        li {
+          padding: 10px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

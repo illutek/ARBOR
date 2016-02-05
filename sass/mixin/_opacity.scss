@@ -1,0 +1,12 @@
+//@mixin opacity
+//Sets opacity to element with vendor prefixes.
+//@param decimal - decimal point for opacity
+////Usage: @include opacity-decimal(.5);
+@mixin opacity-decimal($decimal:1){
+  $percent: $decimal * 100;
+  filter:alpha(opacity= $percent );
+  -ms-filter:"alpha(opacity=#{$percent})";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($decimal * 100)});
+  opacity: $decimal;
+}
+

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,900);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -5662,5 +5663,67 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.min.css.map */
+html, body, section, div {
+  height: 100%;
+  font-family: Verdana, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Rubik', sans-serif; }
+
+.container-wrap {
+  width: 100%; }
+
+.left-fixed-container {
+  width: 50%;
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  padding: 0 50px 0;
+  background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
+  background-size: cover; }
+  .left-fixed-container .site-info {
+    text-align: right; }
+    .left-fixed-container .site-info .logo {
+      float: right;
+      margin: 50px 0px; }
+    .left-fixed-container .site-info .core-business {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      background: #019740;
+      display: inline-block;
+      color: #ffffff;
+      padding: 5px 10px;
+      font-size: 1.5em; }
+    .left-fixed-container .site-info .site-name {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 900;
+      font-size: 4.8125em;
+      color: #ffffff;
+      float: right;
+      margin: 50px 0px; }
+  .left-fixed-container .menu-container {
+    text-align: right; }
+    .left-fixed-container .menu-container .main-menu {
+      background: #000000;
+      filter: alpha(opacity=60);
+      -ms-filter: "alpha(opacity=60)";
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+      opacity: 0.6;
+      display: inline-block;
+      font-size: 1.25em;
+      padding: 20px; }
+      .left-fixed-container .menu-container .main-menu a {
+        color: #ffffff; }
+        .left-fixed-container .menu-container .main-menu a:hover {
+          text-decoration: none; }
+        .left-fixed-container .menu-container .main-menu a li {
+          padding: 10px;
+          font-weight: bold; }
+
+.right-container {
+  margin-left: 50%;
+  padding: 2em;
+  width: 40%;
+  background: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
