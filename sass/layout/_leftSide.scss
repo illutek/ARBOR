@@ -6,7 +6,7 @@
   width: 50%;
   position: fixed;
   left: 0px;
-  height: 100%;
+  height: 100vh;
   padding: 0 50px 0;
   background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -26,9 +26,7 @@
       font-size: 1.5em; //24px / 16px
     }
     .site-name {
-      font-family: 'Rubik', sans-serif;
-      font-weight: 900;
-      font-size: 4.8125em; //77px / 16px
+      @extend %fontBig;
       color: #ffffff;
       float: right;
       margin: 50px 0px;

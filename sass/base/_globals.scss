@@ -3,8 +3,12 @@
 //================================
 
 html, body, section, div {
-  height: 100%;
   font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;  //16px / 16px
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 h1, h2, h3, h4, h5 {
