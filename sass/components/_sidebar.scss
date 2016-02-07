@@ -1,0 +1,43 @@
+//===========================================
+// @@ ++ Navigatie boomverzorging
+//===========================================
+
+.container-wrap .sidebar {
+  background: $greenMain;
+  color: #ffffff;
+  position: fixed;
+  padding: 50px 20px;
+  top: 0px;
+  left: -310px;
+  width: 310px;
+  transition: left 0.5s;
+  z-index: 0;
+  height: 100vh;
+  cursor: pointer;
+  li {
+    color: #ffffff;
+    padding-bottom: 10px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.toggle {
+  color: #ffffff;
+}
+
+#sidebartoggler {
+  display: none;
+  &:checked + .container-wrap {
+    .site-name {
+      @extend %fontLessBig;
+    }
+    .sidebar {
+      left: 0px;
+    }
+    .left-fixed-container {
+      padding-left: 310px;
+    }
+  }
+}

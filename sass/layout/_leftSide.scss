@@ -5,6 +5,8 @@
 .left-fixed-container {
   width: 50%;
   position: fixed;
+  transition: right 0.5s;
+  z-index: 0;
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
@@ -26,6 +28,7 @@
       font-size: 1.5em; //24px / 16px
     }
     .site-name {
+      -webkit-transition: all 0.3s ease;
       @extend %fontBig;
       color: #ffffff;
       float: right;
@@ -53,3 +56,4 @@
     }
   }
 }
+

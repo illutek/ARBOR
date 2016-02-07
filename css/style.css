@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,500,900);
+.left-fixed-container .site-info .site-name, .right-container h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 4.8125em; }
+
+#sidebartoggler:checked + .container-wrap .site-name {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 3.75em; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -5664,8 +5674,11 @@ button.close {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.min.css.map */
 html, body, section, div {
-  height: 100%;
-  font-family: Verdana, Arial, sans-serif; }
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em; }
+
+p {
+  margin-bottom: 15px; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Rubik', sans-serif; }
@@ -5676,8 +5689,10 @@ h1, h2, h3, h4, h5 {
 .left-fixed-container {
   width: 50%;
   position: fixed;
+  transition: right 0.5s;
+  z-index: 0;
   left: 0px;
-  height: 100%;
+  height: 100vh;
   padding: 0 50px 0;
   background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
   background-size: cover; }
@@ -5695,9 +5710,7 @@ h1, h2, h3, h4, h5 {
       padding: 5px 10px;
       font-size: 1.5em; }
     .left-fixed-container .site-info .site-name {
-      font-family: 'Rubik', sans-serif;
-      font-weight: 900;
-      font-size: 4.8125em;
+      -webkit-transition: all 0.3s ease;
       color: #ffffff;
       float: right;
       margin: 50px 0px; }
@@ -5723,7 +5736,56 @@ h1, h2, h3, h4, h5 {
 .right-container {
   margin-left: 50%;
   padding: 2em;
-  width: 40%;
-  background: #ffffff; }
+  width: 40%; }
+  .right-container h1 {
+    color: #000000;
+    margin-bottom: 50px; }
+
+.container-wrap .sidebar {
+  background: #019740;
+  color: #ffffff;
+  position: fixed;
+  padding: 50px 20px;
+  top: 0px;
+  left: -310px;
+  width: 310px;
+  transition: left 0.5s;
+  z-index: 0;
+  height: 100vh;
+  cursor: pointer; }
+  .container-wrap .sidebar li {
+    color: #ffffff;
+    padding-bottom: 10px; }
+    .container-wrap .sidebar li:hover {
+      text-decoration: none; }
+
+.toggle {
+  color: #ffffff; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .container-wrap .sidebar {
+    left: 0px; }
+  #sidebartoggler:checked + .container-wrap .left-fixed-container {
+    padding-left: 310px; }
+
+@media only screen and (min-width: 961px) {
+  .mobile-wrap {
+    display: none; } }
+@media only screen and (max-width: 1366px) {
+  /* css code voor tablets in landscape mode*/ }
+@media only screen and (max-width: 960px) {
+  /* css code voor tablets in portrait mode */ }
+@media only screen and (max-width: 767px) {
+  /* css code voor smartphones in landscape mode */ }
+@media only screen and (max-width: 479px) {
+  /* css code voor smartphones in portrait mode */
+  .left-fixed-container {
+    width: 100%;
+    height: 50vh; }
+
+  .right-container {
+    margin-left: 0;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
