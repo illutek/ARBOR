@@ -5688,8 +5688,9 @@ h1, h2, h3, h4, h5 {
 
 .left-fixed-container {
   width: 50%;
+  transition-delay: .1s;
+  transition: width 0.8s;
   position: fixed;
-  transition: right 0.5s;
   z-index: 0;
   left: 0px;
   height: 100vh;
@@ -5710,7 +5711,8 @@ h1, h2, h3, h4, h5 {
       padding: 5px 10px;
       font-size: 1.5em; }
     .left-fixed-container .site-info .site-name {
-      -webkit-transition: all 0.3s ease;
+      transition-delay: .5s;
+      transition: width 1s;
       color: #ffffff;
       float: right;
       margin: 50px 0px; }
@@ -5736,7 +5738,10 @@ h1, h2, h3, h4, h5 {
 .right-container {
   margin-left: 50%;
   padding: 2em;
-  width: 40%; }
+  width: 40%;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 999; }
   .right-container h1 {
     color: #000000;
     margin-bottom: 50px; }
@@ -5747,10 +5752,10 @@ h1, h2, h3, h4, h5 {
   position: fixed;
   padding: 50px 20px;
   top: 0px;
-  left: -310px;
+  left: 50%;
   width: 310px;
   transition: left 0.5s;
-  z-index: 0;
+  z-index: -1;
   height: 100vh;
   cursor: pointer; }
   .container-wrap .sidebar a:hover {
@@ -5765,11 +5770,12 @@ h1, h2, h3, h4, h5 {
 
 #sidebartoggler {
   display: none; }
-  #sidebartoggler:checked + .container-wrap .sidebar {
-    transition-delay: .1s;
-    left: 0px; }
   #sidebartoggler:checked + .container-wrap .left-fixed-container {
-    padding-left: 310px; }
+    width: 34%; }
+  #sidebartoggler:checked + .container-wrap .sidebar {
+    left: 34%; }
+  #sidebartoggler:checked + .container-wrap .site-name {
+    transition-delay: .5s; }
 
 @media only screen and (min-width: 961px) {
   .mobile-wrap {
