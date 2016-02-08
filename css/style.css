@@ -5704,7 +5704,7 @@ h1, h2, h3, h4, h5 {
     .left-fixed-container .site-info .core-business {
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
-      background: #019740;
+      background: #009A3C;
       display: inline-block;
       color: #ffffff;
       padding: 5px 10px;
@@ -5742,7 +5742,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 50px; }
 
 .container-wrap .sidebar {
-  background: #019740;
+  background: #009A3C;
   color: #ffffff;
   position: fixed;
   padding: 50px 20px;
@@ -5753,18 +5753,20 @@ h1, h2, h3, h4, h5 {
   z-index: 0;
   height: 100vh;
   cursor: pointer; }
-  .container-wrap .sidebar li {
+  .container-wrap .sidebar a:hover {
+    text-decoration: none; }
+  .container-wrap .sidebar a li {
     color: #ffffff;
     padding-bottom: 10px; }
-    .container-wrap .sidebar li:hover {
-      text-decoration: none; }
 
 .toggle {
-  color: #ffffff; }
+  color: #ffffff;
+  cursor: pointer; }
 
 #sidebartoggler {
   display: none; }
   #sidebartoggler:checked + .container-wrap .sidebar {
+    transition-delay: .1s;
     left: 0px; }
   #sidebartoggler:checked + .container-wrap .left-fixed-container {
     padding-left: 310px; }

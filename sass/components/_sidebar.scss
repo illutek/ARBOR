@@ -3,7 +3,7 @@
 //===========================================
 
 .container-wrap .sidebar {
-  background: $greenMain;
+  background: $newGreenMain;
   color: #ffffff;
   position: fixed;
   padding: 50px 20px;
@@ -14,17 +14,22 @@
   z-index: 0;
   height: 100vh;
   cursor: pointer;
-  li {
-    color: #ffffff;
-    padding-bottom: 10px;
+  a {
     &:hover {
-      text-decoration: none;
+    text-decoration: none;
+  }
+    li {
+      color: #ffffff;
+      padding-bottom: 10px;
+
     }
   }
+
 }
 
 .toggle {
   color: #ffffff;
+  cursor: pointer;
 }
 
 #sidebartoggler {
@@ -34,6 +39,7 @@
       @extend %fontLessBig;
     }
     .sidebar {
+      transition-delay: .1s;
       left: 0px;
     }
     .left-fixed-container {
