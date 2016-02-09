@@ -11,7 +11,7 @@
   left: 34%;
   width: 310px;
   transition: left 0.5s;
-  z-index: -1;
+  z-index: 0;
   height: 100vh;
   cursor: pointer;
   a {
@@ -40,7 +40,6 @@
       width: 34%;
     }
     .sidebar {
-      //transition-delay: .1s;
     }
     .site-name {
       transition-delay: .5s;

@@ -5691,6 +5691,7 @@ h1, h2, h3, h4, h5 {
   transition-delay: .1s;
   transition: width 0.8s;
   position: fixed;
+  z-index: 999;
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
@@ -5753,7 +5754,7 @@ h1, h2, h3, h4, h5 {
   left: 34%;
   width: 310px;
   transition: left 0.5s;
-  z-index: -1;
+  z-index: 0;
   height: 100vh;
   cursor: pointer; }
   .container-wrap .sidebar a {
