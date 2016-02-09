@@ -5747,11 +5747,7 @@ h1, h2, h3, h4, h5 {
 
 .container-wrap .sidebar {
   background: #C7D401;
-<<<<<<< HEAD
-  color: #000000;
-=======
   color: #ffffff;
->>>>>>> subnavigationslidemidle
   position: fixed;
   padding: 50px 20px;
   top: 0px;
@@ -5761,13 +5757,6 @@ h1, h2, h3, h4, h5 {
   z-index: 0;
   height: 100vh;
   cursor: pointer; }
-<<<<<<< HEAD
-  .container-wrap .sidebar a:hover {
-    text-decoration: none; }
-  .container-wrap .sidebar a li {
-    color: #000000;
-    padding-bottom: 10px; }
-=======
   .container-wrap .sidebar a {
     cursor: pointer; }
     .container-wrap .sidebar a:hover {
@@ -5775,7 +5764,6 @@ h1, h2, h3, h4, h5 {
     .container-wrap .sidebar a li {
       color: #000000;
       padding-bottom: 10px; }
->>>>>>> subnavigationslidemidle
 
 .toggle {
   color: #ffffff;

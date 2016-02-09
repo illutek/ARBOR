@@ -4,18 +4,14 @@
 
 .container-wrap .sidebar {
   background: $newLogoGreen;
-<<<<<<< HEAD
-  color: $black;
-=======
   color: #ffffff;
->>>>>>> subnavigationslidemidle
   position: fixed;
   padding: 50px 20px;
   top: 0px;
-  left: 34%;
+  left: 50%;
   width: 310px;
   transition: left 0.5s;
-  z-index: 0;
+  z-index: -1;
   height: 100vh;
   cursor: pointer;
   a {
@@ -44,6 +40,8 @@
       width: 34%;
     }
     .sidebar {
+      //transition-delay: .1s;
+      left: 34%;
     }
     .site-name {
       transition-delay: .5s;
