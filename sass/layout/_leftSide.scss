@@ -4,9 +4,10 @@
 
 .left-fixed-container {
   width: 50%;
+  transition-delay: .1s;
+  transition: width 0.8s;
   position: fixed;
-  transition: right 0.5s;
-  z-index: 0;
+  z-index: 999;
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
@@ -28,7 +29,8 @@
       font-size: 1.5em; //24px / 16px
     }
     .site-name {
-      -webkit-transition: all 0.3s ease;
+      transition-delay: .5s;
+      transition: width 1s;
       @extend %fontBig;
       color: #ffffff;
       float: right;

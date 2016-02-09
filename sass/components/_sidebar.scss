@@ -4,17 +4,22 @@
 
 .container-wrap .sidebar {
   background: $newLogoGreen;
+<<<<<<< HEAD
   color: $black;
+=======
+  color: #ffffff;
+>>>>>>> subnavigationslidemidle
   position: fixed;
   padding: 50px 20px;
   top: 0px;
-  left: -310px;
+  left: 34%;
   width: 310px;
   transition: left 0.5s;
   z-index: 0;
   height: 100vh;
   cursor: pointer;
   a {
+    cursor: pointer;
     &:hover {
     text-decoration: none;
   }
@@ -35,15 +40,14 @@
 #sidebartoggler {
   display: none;
   &:checked + .container-wrap {
-    .site-name {
-      @extend %fontLessBig;
+    .left-fixed-container {
+      width: 34%;
     }
     .sidebar {
-      transition-delay: .1s;
-      left: 0px;
     }
-    .left-fixed-container {
-      padding-left: 310px;
+    .site-name {
+      transition-delay: .5s;
+      @extend %fontLessBig;
     }
   }
 }
