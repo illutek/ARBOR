@@ -8,9 +8,8 @@
   width: 40%;
   height: 100vh;
   background: #ffffff;
-  z-index: 999;
   h1 {
-    color: $black;
+    color: $newGreenMain;
     margin-bottom: 50px;
     @extend %fontBig;
   }

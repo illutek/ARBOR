@@ -5691,7 +5691,6 @@ h1, h2, h3, h4, h5 {
   transition-delay: .1s;
   transition: width 0.8s;
   position: fixed;
-  z-index: 0;
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
@@ -5705,7 +5704,7 @@ h1, h2, h3, h4, h5 {
     .left-fixed-container .site-info .core-business {
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
-      background: #009A3C;
+      background: #C7D401;
       display: inline-block;
       color: #ffffff;
       padding: 5px 10px;
@@ -5719,11 +5718,11 @@ h1, h2, h3, h4, h5 {
   .left-fixed-container .menu-container {
     text-align: right; }
     .left-fixed-container .menu-container .main-menu {
-      background: #000000;
-      filter: alpha(opacity=60);
-      -ms-filter: "alpha(opacity=60)";
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-      opacity: 0.6;
+      background: url("../images/background_nav.jpg") no-repeat;
+      filter: alpha(opacity=70);
+      -ms-filter: "alpha(opacity=70)";
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+      opacity: 0.7;
       display: inline-block;
       font-size: 1.25em;
       padding: 20px; }
@@ -5740,29 +5739,30 @@ h1, h2, h3, h4, h5 {
   padding: 2em;
   width: 40%;
   height: 100vh;
-  background: #ffffff;
-  z-index: 999; }
+  background: #ffffff; }
   .right-container h1 {
-    color: #000000;
+    color: #009A3C;
     margin-bottom: 50px; }
 
 .container-wrap .sidebar {
-  background: #009A3C;
+  background: #C7D401;
   color: #ffffff;
   position: fixed;
   padding: 50px 20px;
   top: 0px;
-  left: 50%;
+  left: 34%;
   width: 310px;
   transition: left 0.5s;
   z-index: -1;
   height: 100vh;
   cursor: pointer; }
-  .container-wrap .sidebar a:hover {
-    text-decoration: none; }
-  .container-wrap .sidebar a li {
-    color: #ffffff;
-    padding-bottom: 10px; }
+  .container-wrap .sidebar a {
+    cursor: pointer; }
+    .container-wrap .sidebar a:hover {
+      text-decoration: none; }
+    .container-wrap .sidebar a li {
+      color: #000000;
+      padding-bottom: 10px; }
 
 .toggle {
   color: #ffffff;
@@ -5772,8 +5772,6 @@ h1, h2, h3, h4, h5 {
   display: none; }
   #sidebartoggler:checked + .container-wrap .left-fixed-container {
     width: 34%; }
-  #sidebartoggler:checked + .container-wrap .sidebar {
-    left: 34%; }
   #sidebartoggler:checked + .container-wrap .site-name {
     transition-delay: .5s; }
 

@@ -7,7 +7,7 @@
   transition-delay: .1s;
   transition: width 0.8s;
   position: fixed;
-  z-index: 0;
+  //z-index: 0;
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
@@ -22,7 +22,7 @@
     .core-business {
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
-      background: $newGreenMain;
+      background: $newLogoGreen;
       display: inline-block;
       color: #ffffff;
       padding: 5px 10px;
@@ -40,8 +40,8 @@
   .menu-container {
     text-align: right;
     .main-menu {
-      background: #000000;
-      @include opacity-decimal(.6);
+      background: url("../images/background_nav.jpg") no-repeat;
+      @include opacity-decimal(.7);
       display: inline-block;
       font-size: 1.25em; //20px / 16px
       padding: 20px;
