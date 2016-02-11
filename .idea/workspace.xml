@@ -27,21 +27,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.46506777">
       <split-first>
         <leaf>
-          <file leaf-file-name="_variable.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sass/_variable.scss">
+          <file leaf-file-name="_variable.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/base/_variable.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="987">
+                <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="748">
                   <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="918">
-                  <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.4650456" vertical-offset="0" max-vertical-offset="987">
+                  <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -63,9 +63,29 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="98481" max-vertical-offset="98668">
-                  <caret line="5793" column="0" selection-start-line="5793" selection-start-column="0" selection-end-line="5793" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0" vertical-offset="98447" max-vertical-offset="98668">
+                  <caret line="5791" column="0" selection-start-line="5791" selection-start-column="0" selection-end-line="5791" selection-end-column="0" />
+                  <folding>
+                    <marker date="1455198465505" expanded="true" signature="145542:146833" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="146866:146882" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="146923:146947" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="147550:147851" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="147904:147913" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="147958:148034" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="148085:148266" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="148317:148429" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="148499:148548" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="148610:148867" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="148969:148972" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149140:149241" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149259:149291" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149340:149544" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149576:149608" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149654:149683" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149709:149735" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149742:149776" placeholder="{...}" />
+                    <marker date="1455198465505" expanded="true" signature="149809:149879" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -94,6 +114,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="_mediaquery.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/state/_mediaquery.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="714">
+                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="_rightSide.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/layout/_rightSide.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -104,11 +134,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/components/_sidebar.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="969">
-                  <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.18946302" vertical-offset="0" max-vertical-offset="987">
+                  <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -124,13 +154,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/template/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44883487" vertical-offset="1087" max-vertical-offset="2074">
-                  <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+                <state vertical-scroll-proportion="-29.615385" vertical-offset="131" max-vertical-offset="1156">
+                  <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
                   <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -148,13 +178,13 @@
         <option value="$PROJECT_DIR$/sass/state/_mediaquery.scss" />
         <option value="$PROJECT_DIR$/sass/base/_globals.scss" />
         <option value="$PROJECT_DIR$/sass/components/_nav-trees.scss" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/sass/_variable.scss" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/sass/layout/_rightSide.scss" />
-        <option value="$PROJECT_DIR$/sass/components/_sidebar.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_leftSide.scss" />
         <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/sass/components/_sidebar.scss" />
       </list>
     </option>
   </component>
@@ -179,7 +209,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -190,7 +220,147 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARBOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -201,6 +371,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Y:\ARBOR-SERVICE\drupal\themes\ARBOR\sass\base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\ARBOR-SERVICE\drupal\themes\ARBOR\sass\base" />
+      <recent name="Y:\ARBOR-SERVICE\drupal\themes\ARBOR\sass\vendor" />
     </key>
   </component>
   <component name="RunManager">
@@ -218,15 +392,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -252,7 +426,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16892597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39961576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -260,9 +436,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39961576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -288,7 +462,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/_variable.scss">
+    <entry file="file://$PROJECT_DIR$/sass/base/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
@@ -320,7 +494,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="1411">
           <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -329,7 +503,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="97600" max-vertical-offset="98175">
           <caret line="5769" column="0" selection-start-line="5769" selection-start-column="0" selection-end-line="5769" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455198465505" expanded="true" signature="145542:146833" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146866:146882" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146923:146947" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147550:147851" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147904:147913" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147958:148034" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148085:148266" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148317:148429" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148499:148548" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148610:148867" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148969:148972" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149140:149241" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149259:149291" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149340:149544" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149576:149608" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149654:149683" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149709:149735" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149742:149776" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149809:149879" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_variable.scss">
+    <entry file="file://$PROJECT_DIR$/sass/base/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
@@ -425,7 +619,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1003">
           <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -434,7 +628,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="96682" max-vertical-offset="97495">
           <caret line="5729" column="0" selection-start-line="5729" selection-start-column="0" selection-end-line="5729" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455198465505" expanded="true" signature="145542:146833" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146866:146882" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146923:146947" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147550:147851" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147904:147913" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147958:148034" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148085:148266" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148317:148429" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148499:148548" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148610:148867" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148969:148972" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149140:149241" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149259:149291" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149340:149544" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149576:149608" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149654:149683" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149709:149735" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149742:149776" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149809:149879" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_variable.scss">
+    <entry file="file://$PROJECT_DIR$/sass/base/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
@@ -523,7 +737,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1003">
           <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -532,7 +746,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="96682" max-vertical-offset="97495">
           <caret line="5729" column="0" selection-start-line="5729" selection-start-column="0" selection-end-line="5729" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455198465505" expanded="true" signature="145542:146833" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146866:146882" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146923:146947" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147550:147851" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147904:147913" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147958:148034" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148085:148266" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148317:148429" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148499:148548" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148610:148867" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148969:148972" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149140:149241" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149259:149291" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149340:149544" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149576:149608" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149654:149683" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149709:149735" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149742:149776" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149809:149879" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,7 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/bootstrap.min.scss">
+    <entry file="file://$PROJECT_DIR$/sass/vendor/bootstrap.min.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -632,21 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/state/_mediaquery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27558258" vertical-offset="0" max-vertical-offset="987">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="918">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_theme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
@@ -657,23 +876,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="97988" max-vertical-offset="98583">
-          <caret line="5793" column="0" selection-start-line="5793" selection-start-column="0" selection-end-line="5793" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="98447" max-vertical-offset="98668">
+          <caret line="5791" column="0" selection-start-line="5791" selection-start-column="0" selection-end-line="5791" selection-end-column="0" />
+          <folding>
+            <marker date="1455198465505" expanded="true" signature="145542:146833" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146866:146882" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="146923:146947" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147550:147851" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147904:147913" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="147958:148034" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148085:148266" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148317:148429" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148499:148548" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148610:148867" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="148969:148972" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149140:149241" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149259:149291" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149340:149544" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149576:149608" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149654:149683" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149709:149735" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149742:149776" placeholder="{...}" />
+            <marker date="1455198465505" expanded="true" signature="149809:149879" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/components/_sidebar.scss">
+    <entry file="file://$PROJECT_DIR$/sass/base/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="969">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_variable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="987">
+        <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="748">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding />
         </state>
@@ -695,13 +926,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/state/_mediaquery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="714">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44883487" vertical-offset="1087" max-vertical-offset="2074">
-          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        <state vertical-scroll-proportion="-29.615385" vertical-offset="131" max-vertical-offset="1156">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4650456" vertical-offset="0" max-vertical-offset="987">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18946302" vertical-offset="0" max-vertical-offset="987">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

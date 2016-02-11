@@ -4,24 +4,22 @@
 
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,500,900);
 
-
-//=======================
-// @@ ++ Variable
-//=======================
-@import "variable";
-
-
 //=========================
-// @@ ++ Mixin
+// @@ ++ Vendor
 //=========================
-@import "mixin/opacity";
+@import "vendor/bootstrap.min";
 
 //=========================
 // @@ ++ Base
 //=========================
 @import "base/reset";
-@import "base/bootstrap.min";
+@import "base/_variable";
 @import "base/globals";
+
+//=========================
+// @@ ++ Mixin
+//=========================
+@import "mixin/opacity";
 
 //=========================
 // @@ ++ Layout
