@@ -8,7 +8,7 @@
   position: fixed;
   padding: 50px 20px;
   top: 0px;
-  left: 50%;
+  left: 34%;
   width: 310px;
   transition: left 0.5s;
   z-index: -1;
@@ -41,7 +41,7 @@
     }
     .sidebar {
       //transition-delay: .1s;
-      left: 34%;
+      //left: 34%;
     }
     .site-name {
       transition-delay: .5s;
