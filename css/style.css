@@ -5678,7 +5678,8 @@ html, body, section, div {
   font-size: 1em; }
 
 p {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  line-height: 1.5em; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Rubik', sans-serif; }
@@ -5691,6 +5692,7 @@ h1, h2, h3, h4, h5 {
   transition-delay: .1s;
   transition: width 0.8s;
   position: fixed;
+  z-index: 999;
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
@@ -5739,11 +5741,37 @@ h1, h2, h3, h4, h5 {
   padding: 2em;
   width: 40%;
   height: 100vh;
-  background: #ffffff;
-  z-index: 0; }
+  background: #ffffff; }
   .right-container h1 {
     color: #009A3C;
     margin-bottom: 50px; }
+
+.mobile-wrap {
+  background: url("../images/left-image_smaller.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover; }
+
+.mobile-header {
+  background: url("../images/background-header_nav.jpg") no-repeat;
+  height: 103px; }
+  .mobile-header .mobile-sitename {
+    text-align: center; }
+    .mobile-header .mobile-sitename h1 {
+      padding: 10px 0;
+      font-weight: 900;
+      font-size: 2em;
+      color: #009A3C; }
+
+.navbar-default .navbar-toggle {
+  border: none; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background: #ffffff; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.navbar-header {
+  background: #009A3C; }
 
 .container-wrap .sidebar {
   background: #C7D401;
@@ -5754,7 +5782,7 @@ h1, h2, h3, h4, h5 {
   left: 34%;
   width: 310px;
   transition: left 0.5s;
-  z-index: -1;
+  z-index: 0;
   height: 100vh;
   cursor: pointer; }
   .container-wrap .sidebar a {
@@ -5773,12 +5801,17 @@ h1, h2, h3, h4, h5 {
   display: none; }
   #sidebartoggler:checked + .container-wrap .left-fixed-container {
     width: 34%; }
+  #sidebartoggler:checked + .container-wrap .sidebar {
+    transition-delay: .5s; }
   #sidebartoggler:checked + .container-wrap .site-name {
     transition-delay: .5s; }
 
 @media only screen and (min-width: 961px) {
   .mobile-wrap {
-    display: none; } }
+    display: none; }
+
+  .desktop {
+    display: block; } }
 @media only screen and (max-width: 1366px) {
   /* css code voor tablets in landscape mode*/ }
 @media only screen and (max-width: 960px) {
@@ -5787,6 +5820,9 @@ h1, h2, h3, h4, h5 {
   /* css code voor smartphones in landscape mode */ }
 @media only screen and (max-width: 479px) {
   /* css code voor smartphones in portrait mode */
+  .desktop {
+    display: none; }
+
   .left-fixed-container {
     width: 100%;
     height: 50vh; }

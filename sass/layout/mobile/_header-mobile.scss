@@ -1,0 +1,18 @@
+//=======================
+// @@ ++ Header mobile
+//=======================
+
+.mobile-header {
+  background: url("../images/background-header_nav.jpg") no-repeat;
+  height: 103px;
+  .mobile-sitename {
+    text-align: center;
+    h1 {
+      padding: 10px 0;
+      font-weight: 900;
+      font-size: 2em; //32px/16px
+      color: $newGreenMain;
+    }
+  }
+}
+

@@ -5,6 +5,9 @@
   .mobile-wrap {
     display: none;
   }
+  .desktop {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -25,6 +28,9 @@
 @media only screen and (max-width: 479px) {
   /* css code voor smartphones in portrait mode */
 
+  .desktop {
+    display: none;
+  }
   .left-fixed-container {
     width: 100%;
     height: 50vh;
