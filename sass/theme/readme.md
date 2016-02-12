@@ -4,3 +4,5 @@ because your component will have visual styling as well. The theme category come
 single theme needs an alternate visual style -- like a colour scheme. This folder could contain 
 additional files like dark.css or red.css that will apply styles that override what was previously 
 defined in the component.
+
+####Will use this for the mobile version
