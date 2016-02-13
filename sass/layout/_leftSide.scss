@@ -14,10 +14,11 @@
   background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
   background-size: cover;
   .site-info {
+    margin: 5vh 0;
     text-align: right;
     .logo {
       float: right;
-      margin: 50px 0px;
+      margin: 0 0 10px 0;
     }
     .core-business {
       font-family: 'Rubik', sans-serif;
@@ -35,26 +36,6 @@
       color: #ffffff;
       float: right;
       margin: 50px 0px;
-    }
-  }
-  .menu-container {
-    text-align: right;
-    .main-menu {
-      background: url("../images/background_nav.jpg") no-repeat;
-      @include opacity-decimal(.7);
-      display: inline-block;
-      font-size: 1.25em; //20px / 16px
-      padding: 20px;
-      a {
-        color: #ffffff;
-        &:hover {
-          text-decoration: none;
-        }
-        li {
-          padding: 10px;
-          font-weight: bold;
-        }
-      }
     }
   }
 }

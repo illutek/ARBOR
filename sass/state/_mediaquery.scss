@@ -28,7 +28,7 @@
 @media only screen and (max-width: 479px) {
   /* css code voor smartphones in portrait mode */
 
-  .desktop {
+  .desktop, .sidebar {
     display: none;
   }
   .left-fixed-container {

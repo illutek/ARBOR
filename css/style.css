@@ -5671,7 +5671,7 @@ table {
 #sidebartoggler:checked + .container-wrap .site-name {
   font-family: 'Rubik', sans-serif;
   font-weight: 900;
-  font-size: 3.75em; }
+  font-size: 3em; }
 
 html, body, section, div {
   font-family: Verdana, Arial, sans-serif;
@@ -5680,6 +5680,12 @@ html, body, section, div {
 p {
   margin-bottom: 15px;
   line-height: 1.5em; }
+
+a {
+  color: #000000; }
+
+li {
+  padding: 5px 0; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Rubik', sans-serif; }
@@ -5699,10 +5705,11 @@ h1, h2, h3, h4, h5 {
   background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
   background-size: cover; }
   .left-fixed-container .site-info {
+    margin: 5vh 0;
     text-align: right; }
     .left-fixed-container .site-info .logo {
       float: right;
-      margin: 50px 0px; }
+      margin: 0 0 10px 0; }
     .left-fixed-container .site-info .core-business {
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
@@ -5717,24 +5724,6 @@ h1, h2, h3, h4, h5 {
       color: #ffffff;
       float: right;
       margin: 50px 0px; }
-  .left-fixed-container .menu-container {
-    text-align: right; }
-    .left-fixed-container .menu-container .main-menu {
-      background: url("../images/background_nav.jpg") no-repeat;
-      filter: alpha(opacity=70);
-      -ms-filter: "alpha(opacity=70)";
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-      opacity: 0.7;
-      display: inline-block;
-      font-size: 1.25em;
-      padding: 20px; }
-      .left-fixed-container .menu-container .main-menu a {
-        color: #ffffff; }
-        .left-fixed-container .menu-container .main-menu a:hover {
-          text-decoration: none; }
-        .left-fixed-container .menu-container .main-menu a li {
-          padding: 10px;
-          font-weight: bold; }
 
 .right-container {
   margin-left: 50%;
@@ -5764,6 +5753,58 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
     font-weight: bold; }
 
+.menu-container {
+  text-align: right; }
+  .menu-container .main-menu {
+    background: url("../images/background_nav.jpg") no-repeat;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 20px; }
+    .menu-container .main-menu a {
+      color: #ffffff; }
+      .menu-container .main-menu a:hover {
+        text-decoration: none; }
+      .menu-container .main-menu a li {
+        padding: 10px;
+        font-weight: bold; }
+
+.container-wrap .sidebar {
+  background: #C7D401;
+  color: #ffffff;
+  position: fixed;
+  padding: 50px 20px;
+  top: 0px;
+  left: 34%;
+  width: 15%;
+  transition: left 0.5s;
+  z-index: 0;
+  height: 100vh;
+  cursor: pointer; }
+  .container-wrap .sidebar a {
+    cursor: pointer; }
+    .container-wrap .sidebar a:hover {
+      text-decoration: none; }
+    .container-wrap .sidebar a li {
+      color: #000000;
+      padding-bottom: 10px; }
+
+.toggle {
+  color: #ffffff;
+  cursor: pointer; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .container-wrap .left-fixed-container {
+    width: 34%; }
+  #sidebartoggler:checked + .container-wrap .sidebar {
+    transition-delay: .5s; }
+  #sidebartoggler:checked + .container-wrap .site-name {
+    transition-delay: .5s; }
+
 .navbar-header {
   background: #009A3C; }
 
@@ -5791,42 +5832,11 @@ h1, h2, h3, h4, h5 {
 .navbar-default .navbar-nav > .open > a:hover {
   color: #C7D401;
   background-color: #009A3C; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #ffffff; }
 
 .navbar {
   margin-bottom: 0; }
-
-.container-wrap .sidebar {
-  background: #C7D401;
-  color: #ffffff;
-  position: fixed;
-  padding: 50px 20px;
-  top: 0px;
-  left: 34%;
-  width: 310px;
-  transition: left 0.5s;
-  z-index: 0;
-  height: 100vh;
-  cursor: pointer; }
-  .container-wrap .sidebar a {
-    cursor: pointer; }
-    .container-wrap .sidebar a:hover {
-      text-decoration: none; }
-    .container-wrap .sidebar a li {
-      color: #000000;
-      padding-bottom: 10px; }
-
-.toggle {
-  color: #ffffff;
-  cursor: pointer; }
-
-#sidebartoggler {
-  display: none; }
-  #sidebartoggler:checked + .container-wrap .left-fixed-container {
-    width: 34%; }
-  #sidebartoggler:checked + .container-wrap .sidebar {
-    transition-delay: .5s; }
-  #sidebartoggler:checked + .container-wrap .site-name {
-    transition-delay: .5s; }
 
 @media only screen and (min-width: 961px) {
   .mobile-wrap {
@@ -5842,7 +5852,7 @@ h1, h2, h3, h4, h5 {
   /* css code voor smartphones in landscape mode */ }
 @media only screen and (max-width: 479px) {
   /* css code voor smartphones in portrait mode */
-  .desktop {
+  .desktop, .sidebar {
     display: none; }
 
   .left-fixed-container {
