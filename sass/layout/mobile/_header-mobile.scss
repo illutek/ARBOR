@@ -4,13 +4,13 @@
 
 .mobile-header {
   background: url("../images/background-header_nav.jpg") no-repeat;
-  //height: 103px;
+  background-color: $newLogoGreen;
   text-align: center;
+  margin-bottom: 15px;
   .mobile-sitename {
     h1 {
       padding: 10px 0;
-      font-weight: 900;
-      font-size: 2.5em; //40px/16px
+      font-size: $h1Standard; //40px/16px
       color: $newGreenMain;
     }
   }

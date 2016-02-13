@@ -3,10 +3,10 @@
 //===========================
 
 .navbar-header {
-  background: $newGreenMain;
 }
 
 .navbar-default {
+  background: $newGreenMain;
   .navbar-toggle {
     border: none;
     .icon-bar {
@@ -46,6 +46,7 @@
     }
     .open {
       .dropdown-menu {
+        //height: 500px;
         &>li {
           &>a {
             color: #ffffff;

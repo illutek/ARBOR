@@ -3,7 +3,16 @@
 //================================
 
 .mobile-wrap {
+  margin-top: 50px;
   background: url("../images/left-image_smaller.jpg") no-repeat;
-  height: 100vh;
+  height: 96vh;
   background-size: cover;
+  .mobile-content-wrap {
+    background: url("../images/background-mobile-content.png") repeat;
+    padding: 15px;
+  }
+  h1 {
+    color: $newGreenMain;
+    padding: 10px 0;
+  }
 }

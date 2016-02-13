@@ -18,6 +18,11 @@ $newLogoLight: #72FE3C;
 $newLogoGreen: #C7D401;
 $newLogoDark: #676E00;
 
+//fontsize
+$h1Big: 4.8125em; //77px/16px
+$h1LessBig: 3em; //48px/16px
+$h1Standard: 2.5em; //40px/16px
+$h1Small: 2em; //32px/16px
 
 
 //================================
@@ -33,6 +38,6 @@ $newLogoDark: #676E00;
 %fontLessBig {
   font-family: 'Rubik', sans-serif;
   font-weight: 900;
-  font-size: 3em; //60px/16px
+  font-size: 3em; //48px/16px
 }
 

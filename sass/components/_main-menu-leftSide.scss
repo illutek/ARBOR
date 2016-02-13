@@ -9,15 +9,17 @@
     display: inline-block;
     font-size: 1.25em; //20px / 16px
     padding: 20px;
-    a {
-      color: #ffffff;
-      &:hover {
-        text-decoration: none;
+    li, label {
+      font-weight: bold;
+      a {
+        color: #ffffff;
+        &:hover {
+          text-decoration: none;
+        }
       }
-      li {
-        padding: 10px;
-        font-weight: bold;
-      }
+    }
+    label {
+      padding-top: 5px;
     }
   }
 }

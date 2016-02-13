@@ -1,5 +1,5 @@
 //================================
-// @@ ++ Left Side structure
+// @@ ++ Right Side structure
 //================================
 
 .right-container {
@@ -11,6 +11,6 @@
   h1 {
     color: $newGreenMain;
     margin-bottom: 50px;
-    @extend %fontBig;
+    font-size: $h1Big;
   }
 }
