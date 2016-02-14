@@ -18,6 +18,7 @@
   }
   .navbar-collapse {
     background: $newGreenMain;
+    border-color: transparent;
     li.dropdown {
       background: $newGreenMain;
     }
@@ -46,7 +47,7 @@
     }
     .open {
       .dropdown-menu {
-        //height: 500px;
+        background: $newGreenMain;
         &>li {
           &>a {
             color: #ffffff;

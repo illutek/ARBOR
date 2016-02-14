@@ -1,16 +1,9 @@
 //================================
 // @@ ++ Media query's
 //================================
-@media only screen and (min-width: 961px) {
-  .mobile-wrap {
-    display: none;
-  }
-  .desktop {
-    display: block;
-  }
-}
 
-@media only screen and (max-width: 1441px) {
+
+@media only screen and (max-width: 1604px) {
   /* css code voor tablets in landscape mode*/
   .right-container {
     h1 {
@@ -20,22 +13,31 @@
   .left-fixed-container {
     .site-info {
       .site-name {
-        font-size: $h1LessBig;
+        font-size: $h1Standard;
       }
     }
   }
 }
 
+@media only screen and (min-width: 961px) {
+  .mobile-wrap {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 960px) {
   /* css code voor tablets in portrait mode */
-
+  .desktop, .sidebar {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 801px) {
   /* css code voor smartphones in landscape mode */
-  .desktop, .sidebar {
-    display: none;
-  }
+
   .left-fixed-container {
     width: 100%;
     height: 50vh;
