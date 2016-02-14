@@ -5716,6 +5716,10 @@ h1 {
       display: inline-block;
       color: #ffffff;
       padding: 5px 10px;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
       font-size: 1.5em; }
     .left-fixed-container .site-info .site-name {
       -webkit-transition: all 0.5s ease;
@@ -5808,19 +5812,39 @@ h1 {
   color: #ffffff;
   cursor: pointer; }
 
-#sidebartoggler {
-  display: none; }
-  #sidebartoggler:checked + .container-wrap .left-fixed-container {
-    width: 33%; }
-  #sidebartoggler:checked + .container-wrap .site-name {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 900;
-    font-size: 3em; }
-
+@media only screen and (max-width: 1600px) and (min-width: 961px) {
+  #sidebartoggler {
+    display: none; }
+    #sidebartoggler:checked + .container-wrap .left-fixed-container {
+      width: 33%; }
+    #sidebartoggler:checked + .container-wrap .core-business {
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      font-size: 1.25em; }
+    #sidebartoggler:checked + .container-wrap .site-name {
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 900;
+      font-size: 2em; } }
+@media only screen and (min-width: 1601px) {
+  #sidebartoggler {
+    display: none;
+    color: #ffffff; }
+    #sidebartoggler:checked + .container-wrap .left-fixed-container {
+      width: 33%; }
+    #sidebartoggler:checked + .container-wrap .site-name {
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 900;
+      font-size: 3em; } }
 .navbar-default {
   background: #009A3C; }
   .navbar-default .navbar-toggle {

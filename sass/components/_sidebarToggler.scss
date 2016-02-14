@@ -2,32 +2,58 @@
 // @@ ++ Sidebar Toggler
 // @@ ++ Tonen van submenu boomverzorging
 //===========================================
-
 .toggle {
   color: #ffffff;
   cursor: pointer;
 }
 
-#sidebartoggler {
-  display: none;
-  &:checked + .container-wrap {
-    .left-fixed-container {
-      width: 33%;
-    }
-    .sidebar {
-      //transition-delay: .5s;
-    }
-    .site-name {
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-      font-family: 'Rubik', sans-serif;
-      font-weight: 900;
-      font-size: $h1LessBig;
+@media only screen and (max-width: 1600px) and (min-width: 961px) {
+ // for screen from 961px to 1600px
+  #sidebartoggler {
+    display: none;
+    &:checked + .container-wrap {
+      .left-fixed-container {
+        width: 33%;
+      }
+      .core-business {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        font-size: 1.25em; //2px / 16px
+      }
+      .site-name {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
+        font-size: $h1Small;
+      }
     }
   }
 }
 
+@media only screen and (min-width: 1601px) {
+  // for large screens over 1601px
+  #sidebartoggler {
+    display: none;
+    color: #ffffff;
+    &:checked + .container-wrap {
+      .left-fixed-container {
+        width: 33%;
+      }
 
-
+      .site-name {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
+        font-size: $h1LessBig;
+      }
+    }
+  }
+}
