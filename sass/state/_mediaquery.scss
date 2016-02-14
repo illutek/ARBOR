@@ -4,7 +4,7 @@
 
 
 @media only screen and (max-width: 1604px) {
-  /* css code voor tablets in landscape mode*/
+  /* CSS code for tablets in landscape mode */
   .right-container {
     h1 {
       font-size: $h1LessBig; //48px/16px
@@ -13,13 +13,15 @@
   .left-fixed-container {
     .site-info {
       .site-name {
-        font-size: $h1Standard;
+        font-size: $h1LessBig;
       }
     }
   }
 }
 
 @media only screen and (min-width: 961px) {
+//lower than 960px switch to mobile version
+
   .mobile-wrap {
     display: none;
   }

@@ -5729,7 +5729,7 @@ h1 {
 .right-container {
   margin-left: 50%;
   padding: 2em;
-  width: 40%;
+  width: 50%;
   height: 100vh;
   background: #ffffff; }
   .right-container h1 {
@@ -5812,8 +5812,6 @@ h1 {
   display: none; }
   #sidebartoggler:checked + .container-wrap .left-fixed-container {
     width: 33%; }
-  #sidebartoggler:checked + .container-wrap .sidebar {
-    transition-delay: .5s; }
   #sidebartoggler:checked + .container-wrap .site-name {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -5859,12 +5857,12 @@ h1 {
   margin-bottom: 0; }
 
 @media only screen and (max-width: 1604px) {
-  /* css code voor tablets in landscape mode*/
+  /* CSS code for tablets in landscape mode */
   .right-container h1 {
     font-size: 3em; }
 
   .left-fixed-container .site-info .site-name {
-    font-size: 2.5em; } }
+    font-size: 3em; } }
 @media only screen and (min-width: 961px) {
   .mobile-wrap {
     display: none; }
