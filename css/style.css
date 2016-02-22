@@ -5744,7 +5744,6 @@ h1 {
 .mobile-wrap {
   margin-top: 50px;
   background: url("../images/left-image_smaller.jpg") no-repeat;
-  height: 96vh;
   background-size: cover; }
   .mobile-wrap .mobile-content-wrap {
     background: url("../images/background-mobile-content.png") repeat;
@@ -5766,6 +5765,23 @@ h1 {
     padding-bottom: 15px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold; }
+
+.footer {
+  background: #C7D401;
+  padding: 10px 0;
+  margin-top: 30px;
+  text-align: center; }
+  .footer .gsm .btn {
+    border-radius: 0; }
+  .footer .gsm .btn-default {
+    background: #009A3C;
+    width: 100%;
+    color: #ffffff;
+    padding: 15px 0;
+    border: none; }
+  .footer .copyright {
+    margin: 15px 0;
+    font-size: 0.75em; }
 
 .menu-container {
   text-align: right; }
