@@ -5748,9 +5748,10 @@ h1 {
   .mobile-wrap .mobile-content-wrap {
     background: url("../images/background-mobile-content.png") repeat;
     padding: 15px; }
-  .mobile-wrap h1 {
+  .mobile-wrap h1.mobile-h1 {
     color: #009A3C;
-    padding: 10px 0; }
+    padding: 10px 0;
+    font-size: 1.75em; }
 
 .mobile-header {
   background: url("../images/background-header_nav.jpg") no-repeat;
@@ -5861,6 +5862,16 @@ h1 {
       font-family: 'Rubik', sans-serif;
       font-weight: 900;
       font-size: 3em; } }
+.contact-facebook-wrapper .facebook-wrap {
+  text-align: right; }
+
+.slider-block {
+  margin: 25px 0 25px;
+  background: #C7D401;
+  padding: 15px; }
+  .slider-block img {
+    width: 100%; }
+
 .navbar-default {
   background: #009A3C; }
   .navbar-default .navbar-toggle {

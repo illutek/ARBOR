@@ -11,8 +11,9 @@
     background: url("../images/background-mobile-content.png") repeat;
     padding: 15px;
   }
-  h1 {
+  h1.mobile-h1 {
     color: $newGreenMain;
     padding: 10px 0;
+    font-size: $h1Smaller;
   }
 }

@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+<div id="fb-root"></div>
 <!-- de mobile versie -->
 <div class="mobile-wrap">
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -175,22 +175,35 @@
                 <img src="../images/html/slider.jpg">
             </div>
             <!-- contact gegevens en facebook banner-->
+            <!-- wordt een include wordt onderaan op elke pagina getoond -->
             <aside class="contact-facebook-wrapper">
                 <div class="row">
                     <div class="col-md-6 contact-wrap">
-                        Joey Liberloo<br>
+                        <p>Joey Liberloo<br>
                         Nijverheidsstraat 36<br>
                         3583 Paal-Beringen<br>
                         0491 55 09 99<br>
-                        joey.lib@hotmail.com<br>
+                        joey.lib@hotmail.com</p>
                     </div>
-                    <div class="col-md-6">
-                        Facebook banner
+
+                    <div class="col-md-6 facebook-wrap">
+                        <div class="fb-page" data-href="https://www.facebook.com/arborservice"
+                             data-tabs="" data-small-header="false"
+                             data-adapt-container-width="true"
+                             data-hide-cover="false"
+                             data-show-facepile="false">
+                            <div class="fb-xfbml-parse-ignore">
+                                <blockquote cite="https://www.facebook.com/arborservice">
+                                    <a href="https://www.facebook.com/arborservice">Arbor - service</a>
+                                </blockquote>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </aside>
         </div>
     </div>
 </div>
+<script src="../js/facebook.js"></script>
 </body>
 </html>
