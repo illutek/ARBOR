@@ -13,4 +13,12 @@
     margin-bottom: 50px;
     font-size: $h1Big;
   }
+  aside {
+    ul {
+      padding-left: 25px;
+    }
+    li {
+      list-style-type: disc;
+    }
+  }
 }

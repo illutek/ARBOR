@@ -5729,6 +5729,11 @@ h1 {
       color: #ffffff;
       float: right;
       margin: 50px 0px; }
+  .left-fixed-container .copyright-desktop {
+    color: #ffffff;
+    position: absolute;
+    bottom: 50px;
+    font-size: 0.75em; }
 
 .right-container {
   margin-left: 50%;
@@ -5740,6 +5745,10 @@ h1 {
     color: #009A3C;
     margin-bottom: 50px;
     font-size: 4.8125em; }
+  .right-container aside ul {
+    padding-left: 25px; }
+  .right-container aside li {
+    list-style-type: disc; }
 
 .mobile-wrap {
   margin-top: 50px;
@@ -5862,8 +5871,12 @@ h1 {
       font-family: 'Rubik', sans-serif;
       font-weight: 900;
       font-size: 3em; } }
-.contact-facebook-wrapper .facebook-wrap {
-  text-align: right; }
+.contact-facebook-wrapper {
+  border: solid 1px #C7D401;
+  padding: 15px;
+  margin: 50px 0; }
+  .contact-facebook-wrapper .facebook-wrap {
+    text-align: right; }
 
 .slider-block {
   margin: 25px 0 25px;
@@ -5914,6 +5927,9 @@ h1 {
 
   .left-fixed-container .site-info .site-name {
     font-size: 3em; } }
+@media only screen and (max-width: 1281px) {
+  .container-wrap .sidebar li a {
+    font-size: 0.75em; } }
 @media only screen and (min-width: 961px) {
   .mobile-wrap {
     display: none; }

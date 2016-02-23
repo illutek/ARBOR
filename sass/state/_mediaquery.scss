@@ -2,7 +2,6 @@
 // @@ ++ Media query's
 //================================
 
-
 @media only screen and (max-width: 1604px) {
   /* CSS code for tablets in landscape mode */
   .right-container {
@@ -19,8 +18,20 @@
   }
 }
 
+@media only screen and (max-width: 1281px) {
+  .container-wrap .sidebar {
+
+      li {
+        a {
+          font-size: 0.75em;
+        }
+
+    }
+  }
+}
+
 @media only screen and (min-width: 961px) {
-//lower than 960px switch to mobile version
+  //lower than 960px switch to mobile version
 
   .mobile-wrap {
     display: none;
@@ -60,7 +71,7 @@
 }
 
 @media only screen and (max-width: 321px) {
-/* css code voor smartphones in portrait mode */
+  /* css code voor smartphones in portrait mode */
   .mobile-header {
     .mobile-sitename {
       h1 {
