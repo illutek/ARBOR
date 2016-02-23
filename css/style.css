@@ -5744,12 +5744,25 @@ h1 {
   .right-container h1 {
     color: #009A3C;
     margin-bottom: 50px;
-    font-size: 4.8125em; }
+    font-size: 4.8125em;
+    text-transform: uppercase; }
   .right-container aside ul {
     padding-left: 25px; }
   .right-container aside li {
     list-style-type: disc; }
 
+@media only screen and (max-width: 1600px) and (min-width: 961px) {
+  .left-fixed-container.trees {
+    width: 33%; }
+    .left-fixed-container.trees .site-info .core-business {
+      font-size: 1.25em; }
+    .left-fixed-container.trees .site-info .site-name {
+      font-size: 2em; } }
+@media only screen and (min-width: 1601px) {
+  .left-fixed-container.trees {
+    width: 33%; }
+    .left-fixed-container.trees .site-info .site-name {
+      font-size: 3em; } }
 .mobile-wrap {
   margin-top: 50px;
   background: url("../images/left-image_smaller.jpg") no-repeat;
@@ -5843,34 +5856,34 @@ h1 {
     display: none; }
     #sidebartoggler:checked + .container-wrap .left-fixed-container {
       width: 33%; }
-    #sidebartoggler:checked + .container-wrap .core-business {
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-      font-size: 1.25em; }
-    #sidebartoggler:checked + .container-wrap .site-name {
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-      font-family: 'Rubik', sans-serif;
-      font-weight: 900;
-      font-size: 2em; } }
+      #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .core-business {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        font-size: 1.25em; }
+      #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .site-name {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
+        font-size: 2em; } }
 @media only screen and (min-width: 1601px) {
   #sidebartoggler {
     display: none;
     color: #ffffff; }
     #sidebartoggler:checked + .container-wrap .left-fixed-container {
       width: 33%; }
-    #sidebartoggler:checked + .container-wrap .site-name {
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-      font-family: 'Rubik', sans-serif;
-      font-weight: 900;
-      font-size: 3em; } }
+      #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .site-name {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
+        font-size: 3em; } }
 .contact-facebook-wrapper {
   border: solid 1px #C7D401;
   padding: 15px;

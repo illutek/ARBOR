@@ -1,0 +1,29 @@
+//===================================
+// @@ ++ Left Side Tree structure
+//===================================
+@media only screen and (max-width: 1600px) and (min-width: 961px) {
+  // for screen from 961px to 1600px
+  .left-fixed-container.trees {
+    width: 33%;
+    .site-info {
+      .core-business {
+        font-size: 1.25em; //2px / 16px
+      }
+      .site-name {
+        font-size: $h1Small;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1601px) {
+  // for large screens over 1601px
+  .left-fixed-container.trees {
+    width: 33%;
+    .site-info {
+      .site-name {
+        font-size: $h1LessBig;
+      }
+    }
+  }
+}
