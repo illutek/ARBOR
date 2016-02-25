@@ -42,7 +42,7 @@ b, strong {
 dfn {
   font-style: italic; }
 
-h1 {
+h1, .right-container h2 {
   margin: .67em 0;
   font-size: 2em; }
 
@@ -1107,22 +1107,22 @@ hr {
 [role=button] {
   cursor: pointer; }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, .right-container h2, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
 
-.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, .right-container h2 .small, h1 small, .right-container h2 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
   font-weight: 400;
   line-height: 1;
   color: #777; }
 
-.h1, .h2, .h3, h1, h2, h3 {
+.h1, .h2, .h3, h1, .right-container h2, h2, h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
 
-.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, .right-container h2 .small, h1 small, .right-container h2 small, h2 .small, h2 small, h3 .small, h3 small {
   font-size: 65%; }
 
 .h4, .h5, .h6, h4, h5, h6 {
@@ -1132,7 +1132,7 @@ hr {
 .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
   font-size: 75%; }
 
-.h1, h1 {
+.h1, h1, .right-container h2 {
   font-size: 36px; }
 
 .h2, h2 {
@@ -4168,7 +4168,7 @@ a.badge:focus, a.badge:hover {
   color: inherit;
   background-color: #eee; }
 
-.jumbotron .h1, .jumbotron h1 {
+.jumbotron .h1, .jumbotron h1, .jumbotron .right-container h2, .right-container .jumbotron h2 {
   color: inherit; }
 
 .jumbotron p {
@@ -4196,7 +4196,7 @@ a.badge:focus, a.badge:hover {
     padding-right: 60px;
     padding-left: 60px; }
 
-  .jumbotron .h1, .jumbotron h1 {
+  .jumbotron .h1, .jumbotron h1, .jumbotron .right-container h2, .right-container .jumbotron h2 {
     font-size: 63px; } }
 .thumbnail {
   display: block;
@@ -5630,7 +5630,7 @@ button.close {
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, .right-container h2, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -5682,10 +5682,10 @@ a {
 li {
   padding: 5px 0; }
 
-h1, h2, h3, h4, h5 {
+h1, .right-container h2, h2, h3, h4, h5 {
   font-family: 'Rubik', sans-serif; }
 
-h1 {
+h1, .right-container h2 {
   font-size: 2em;
   font-weight: 900; }
 
@@ -5741,7 +5741,7 @@ h1 {
   width: 50%;
   height: 100vh;
   background: #ffffff; }
-  .right-container h1 {
+  .right-container h1, .right-container h2 {
     color: #009A3C;
     margin-bottom: 50px;
     font-size: 4.8125em;
@@ -5770,7 +5770,7 @@ h1 {
   .mobile-wrap .mobile-content-wrap {
     background: url("../images/background-mobile-content.png") repeat;
     padding: 15px; }
-  .mobile-wrap h1.mobile-h1 {
+  .mobile-wrap h1.mobile-h1, .mobile-wrap .right-container h2.mobile-h1, .right-container .mobile-wrap h2.mobile-h1 {
     color: #009A3C;
     padding: 10px 0;
     font-size: 1.75em; }
@@ -5780,7 +5780,7 @@ h1 {
   background-color: #C7D401;
   text-align: center;
   margin-bottom: 15px; }
-  .mobile-header .mobile-sitename h1 {
+  .mobile-header .mobile-sitename h1, .mobile-header .mobile-sitename .right-container h2, .right-container .mobile-header .mobile-sitename h2 {
     padding: 10px 0;
     font-size: 2.5em;
     color: #009A3C; }
@@ -5935,7 +5935,7 @@ h1 {
 
 @media only screen and (max-width: 1604px) {
   /* CSS code for tablets in landscape mode */
-  .right-container h1 {
+  .right-container h1, .right-container h2 {
     font-size: 3em; }
 
   .left-fixed-container .site-info .site-name {
@@ -5968,7 +5968,7 @@ h1 {
   /* css code voor smartphones in portrait mode */ }
 @media only screen and (max-width: 321px) {
   /* css code voor smartphones in portrait mode */
-  .mobile-header .mobile-sitename h1 {
+  .mobile-header .mobile-sitename h1, .mobile-header .mobile-sitename .right-container h2, .right-container .mobile-header .mobile-sitename h2 {
     font-size: 2em; }
   .mobile-header .mobile-core-business {
     padding-bottom: 15px;

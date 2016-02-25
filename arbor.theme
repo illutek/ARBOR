@@ -1,0 +1,14 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Stefan
+ * Date: 25/02/2016
+ * Time: 13:23
+ */
+function arbor_preprocess_page(&$variables) {
+    /**
+     * base-path
+     */
+//pad naar de afbeeldingen
+    $variables['images_path'] = $variables['base_path'] . $variables['directory'] . '/images';
+}

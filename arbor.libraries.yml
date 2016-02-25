@@ -1,0 +1,11 @@
+globalstyle:
+  css:
+    theme:
+      css/style.css: {}
+
+globaljs:
+  js:
+    js/bootstrap.min.js: {}
+    js/facebook.js: {}
+  dependencies:
+    - core/jquery
