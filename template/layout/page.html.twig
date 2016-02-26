@@ -24,7 +24,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">Boomverzorging <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="tuin.html">Snoeien van bomen</a></li>
+                            <li><a href="#">Snoeien van bomen</a></li>
                             <li><a href="#">Vellen van gevaarlijke bomen</a></li>
                             <li><a href="#">Standplaats verbetering</a></li>
                             <li><a href="#">Aanplanten van bomen of leibomen</a></li>
@@ -58,25 +58,8 @@
     <div class="container">
         <div class="col-md-12 mobile-content-wrap">
             <aside class="mobile-content">
-                {# Action Links #}
-                {% if action_links %}
-                    {% block action_links %}
-                        <ul class="action-links">{{ action_links }}</ul>
-                    {% endblock %}
-                {% endif %}
-
-                {# Help #}
-                {% if page.help %}
-                    {% block help %}
-                        {{ page.help }}
-                    {% endblock %}
-                {% endif %}
-
                 {# Content #}
-                {% block content %}
-                    <a id="main-content"></a>
-                    {{ page.content }}
-                {% endblock %}
+
             </aside>
         </div>
     </div>
