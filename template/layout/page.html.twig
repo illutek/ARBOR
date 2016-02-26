@@ -17,8 +17,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="tuin.html">Tuinwerken</a></li>
+                    <li><a href="{{ path('<front>') }}" rel="home">Home</a></li>
+                    <li><a href="{{ base_path }}tuinwerken">Tuinwerken</a></li>
                     <li><a href="#">Bedrijven</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -58,14 +58,25 @@
     <div class="container">
         <div class="col-md-12 mobile-content-wrap">
             <aside class="mobile-content">
-                <h1 class="mobile-h1">ARBOR BOOMVERZORGING TUINONDERHOUD</h1>
+                {# Action Links #}
+                {% if action_links %}
+                    {% block action_links %}
+                        <ul class="action-links">{{ action_links }}</ul>
+                    {% endblock %}
+                {% endif %}
 
-                <p>ARBOR - SERVICE uit Beringen is een jong, energiek bedrijf dat altijd klaarstaat om u te
-                    helpen met al uw boom -en groenzorgen.
-                </p>
+                {# Help #}
+                {% if page.help %}
+                    {% block help %}
+                        {{ page.help }}
+                    {% endblock %}
+                {% endif %}
 
-                <p>Dankzij de opleiding bij BSBB, de Belgische School voor Boomverzorging en Bosbeheer
-                    hebben we de nodige ervaring om u te helpen bij al uw problemen.</p>
+                {# Content #}
+                {% block content %}
+                    <a id="main-content"></a>
+                    {{ page.content }}
+                {% endblock %}
             </aside>
         </div>
     </div>
