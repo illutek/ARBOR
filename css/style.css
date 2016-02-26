@@ -5749,7 +5749,9 @@ h1, .right-container h2 {
   .right-container aside ul {
     padding-left: 25px; }
   .right-container aside li {
-    list-style-type: disc; }
+    list-style-type: disc;
+    margin-bottom: 15px;
+    line-height: 1.5em; }
 
 @media only screen and (max-width: 1600px) and (min-width: 961px) {
   .left-fixed-container.trees {
