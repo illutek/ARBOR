@@ -10,5 +10,7 @@ function arbor_preprocess_page(&$variables) {
      * base-path
      */
 //pad naar de afbeeldingen
-    $variables['images_path'] = $variables['base_path'] . $variables['directory'] . '/images';
+    $variables['images_path'] = $variables['base_path ~ directory'] . '/images';
+    // pad naar base path
+    $variables['basePath'] = $variables['base_path ~ directory'];
 }

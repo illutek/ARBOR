@@ -24,7 +24,10 @@
             <aside>
                 <div class="row site-info">
                     <div class="col-md-12 logo">
-                        <img src="../logo_c7d401.png" alt="ARBOR">
+                        <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+                            <img src="{{ base_path ~ directory }}logo_c7d401.png" alt="{{ 'Home'|t }}">
+                        </a>
+
                     </div>
 
                     <div class="col-md-12">
