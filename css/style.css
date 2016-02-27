@@ -5683,11 +5683,15 @@ li {
   padding: 5px 0; }
 
 h1, .right-container h2, h2, h3, h4, h5 {
-  font-family: 'Rubik', sans-serif; }
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900; }
 
 h1, .right-container h2 {
   font-size: 2em;
   font-weight: 900; }
+
+h2 {
+  font-size: 1.75em; }
 
 .container-wrap {
   width: 100%; }
@@ -5754,16 +5758,16 @@ h1, .right-container h2 {
     line-height: 1.5em; }
 
 @media only screen and (max-width: 1600px) and (min-width: 961px) {
-  .left-fixed-container.trees {
+  .page-node-type-trees .left-fixed-container {
     width: 33%; }
-    .left-fixed-container.trees .site-info .core-business {
+    .page-node-type-trees .left-fixed-container .site-info .core-business {
       font-size: 1.25em; }
-    .left-fixed-container.trees .site-info .site-name {
+    .page-node-type-trees .left-fixed-container .site-info .site-name {
       font-size: 2em; } }
 @media only screen and (min-width: 1601px) {
-  .left-fixed-container.trees {
+  .page-node-type-trees .left-fixed-container {
     width: 33%; }
-    .left-fixed-container.trees .site-info .site-name {
+    .page-node-type-trees .left-fixed-container .site-info .site-name {
       font-size: 3em; } }
 .mobile-wrap {
   margin-top: 50px;
