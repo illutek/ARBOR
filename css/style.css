@@ -5781,7 +5781,8 @@ h1, .right-container h2 {
   background: url("../images/background-header_nav.jpg") no-repeat;
   background-color: #C7D401;
   text-align: center;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 50px; }
   .mobile-header .mobile-sitename h1, .mobile-header .mobile-sitename .right-container h2, .right-container .mobile-header .mobile-sitename h2 {
     padding: 10px 0;
     font-size: 2.5em;
@@ -5791,20 +5792,20 @@ h1, .right-container h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: bold; }
 
-.footer {
+.mobile-footer {
   background: #C7D401;
   padding: 10px 0;
   margin-top: 30px;
   text-align: center; }
-  .footer .gsm .btn {
+  .mobile-footer .gsm .btn {
     border-radius: 0; }
-  .footer .gsm .btn-default {
+  .mobile-footer .gsm .btn-default {
     background: #009A3C;
     width: 100%;
     color: #ffffff;
     padding: 15px 0;
     border: none; }
-  .footer .copyright {
+  .mobile-footer .copyright {
     margin: 15px 0;
     font-size: 0.75em; }
 
@@ -5946,15 +5947,28 @@ h1, .right-container h2 {
   .container-wrap .sidebar li a {
     font-size: 0.75em; } }
 @media only screen and (min-width: 961px) {
-  .mobile-wrap {
+  .mobile-version-wrap, .mobile-footer {
     display: none; }
 
-  .desktop {
+  .sidebar, .left-fixed-container, .desktop-footer {
     display: block; } }
 @media only screen and (max-width: 960px) {
   /* css code voor tablets in portrait mode */
-  .desktop, .sidebar {
-    display: none; } }
+  .sidebar, .left-fixed-container, .desktop-footer, input#sidebartoggler {
+    display: none; }
+
+  .mobile-version-wrap, .mobile-footer {
+    display: block; }
+
+  .wrapper {
+    background: url("../images/left-image_smaller.jpg") no-repeat;
+    background-size: cover; }
+
+  .right-container {
+    background: none; }
+    .right-container .main-content {
+      background: url("../images/background-mobile-content.png") repeat;
+      padding: 15px; } }
 @media only screen and (max-width: 801px) {
   /* css code voor smartphones in landscape mode */
   .left-fixed-container {
@@ -5967,14 +5981,19 @@ h1, .right-container h2 {
 @media only screen and (max-width: 767px) {
   /* css code voor smartphones in landscape mode */ }
 @media only screen and (max-width: 479px) {
-  /* css code voor smartphones in portrait mode */ }
+  /* css code voor smartphones in portrait mode */
+  .right-container {
+    height: auto;
+    padding: 1em; }
+    .right-container h1, .right-container h2 {
+      font-size: 1.75em; }
+    .right-container .mobile-core-business {
+      padding-bottom: 15px;
+      font-family: 'Rubik', sans-serif;
+      font-weight: bold; } }
 @media only screen and (max-width: 321px) {
   /* css code voor smartphones in portrait mode */
-  .mobile-header .mobile-sitename h1, .mobile-header .mobile-sitename .right-container h2, .right-container .mobile-header .mobile-sitename h2 {
-    font-size: 2em; }
-  .mobile-header .mobile-core-business {
-    padding-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold; } }
+  .right-container h1, .right-container h2 {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */

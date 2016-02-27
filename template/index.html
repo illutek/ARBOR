@@ -7,105 +7,15 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    </head>
+</head>
 <body>
 <div id="fb-root"></div>
-<!-- de mobile versie -->
-<div class="mobile-wrap">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="tuin.html">Tuinwerken</a></li>
-                    <li><a href="#">Bedrijven</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">Boomverzorging <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="tuin.html">Snoeien van bomen</a></li>
-                            <li><a href="#">Vellen van gevaarlijke bomen</a></li>
-                            <li><a href="#">Standplaats verbetering</a></li>
-                            <li><a href="#">Aanplanten van bomen of leibomen</a></li>
-                            <li><a href="#">Verplanten van bomen</a></li>
-                            <li><a href="#">Kroon- en kluitverankering</a></li>
-                            <li><a href="#">Ziekte- en plaagbestrijding</a></li>
-                            <li><a href="#">Uitgraven of frezen van stronken</a></li>
-                            <li><a href="#">Versnipperen en afvoeren van takken en loof</a></li>
-                            <li><a href="#">Interventies voor, tijdens en na storm</a></li>
-                            <li><a href="#">Advies</a></li>
-                            <li><a href="#">Boomveiligheidsinspecties</a></li>
-                            <li><a href="#">Boombescherming op werven</a></li>
-                            <li><a href="#">Inventarisatie en beheer planning van boombestanden</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+<!-- footer Use this "navbar-fixed-bottom" as the sticky footer should be -->
 
-    <header class="mobile-header">
-        <div class="mobile-sitename">
-            <h1>ARBOR SERVICE</h1>
-        </div>
-        <div class="mobile-core-business">
-            <span>boomchirurgie en tuinonderhoud</span>
-        </div>
-    </header>
-    <div class="container">
-        <div class="col-md-12 mobile-content-wrap">
-            <aside class="mobile-content">
-                <h1 class="mobile-h1">ARBOR BOOMVERZORGING TUINONDERHOUD</h1>
-
-                <p>ARBOR - SERVICE uit Beringen is een jong, energiek bedrijf dat altijd klaarstaat om u te
-                    helpen met al uw boom -en groenzorgen.
-                </p>
-
-                <p>Dankzij de opleiding bij BSBB, de Belgische School voor Boomverzorging en Bosbeheer
-                    hebben we de nodige ervaring om u te helpen bij al uw problemen.</p>
-            </aside>
-        </div>
-    </div>
-    <!-- footer Use this "navbar-fixed-bottom" as the sticky footer should be -->
-    <footer class="footer">
-        <div class="container">
-            <p>Joey Liberloo<br>
-            Nijverheidsstraat 36<br>
-            3583 Paal-Beringen<br>
-            joey.lib@hotmail.com</p>
-            <div class="gsm">
-                <a href="tel:+32491550999" class="btn btn-default">
-                    +32491550999
-                </a>
-            </div>
-            <div class="copyright">
-                <!-- printen van het jaar omzetten in php -->
-                <!-- <?php echo date("Y"); ?> -->
-                &copy; ARBOR-SERVICE 2016
-            </div>
-
-        </div>
-    </footer>
-
-</div>
-<!-- /.mobile-wrap -->
 
 <!-- vanaf hier voor de desktop versie onder mediaquery dit alles niet tonen -->
-<div class="desktop">
+<div class="wrapper">
     <input type="checkbox" id="sidebartoggler" name="" value="">
 
     <div class="container-wrap">
@@ -158,8 +68,68 @@
                 <li><a href="#">Inventarisatie en beheer planning van boombestanden</a></li>
             </ul>
         </div>
-        <!-- main content -->
-        <div class="right-container">
+
+        <!-- enkel zichtbaar bij minder dan 960px-->
+        <div class="mobile-version-wrap">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                            <li><a href="tuin.html">Tuinwerken</a></li>
+                            <li><a href="#">Bedrijven</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">Boomverzorging <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="snoeien-bomen.html">Snoeien van bomen</a></li>
+                                    <li><a href="#">Vellen van gevaarlijke bomen</a></li>
+                                    <li><a href="#">Standplaats verbetering</a></li>
+                                    <li><a href="#">Aanplanten van bomen of leibomen</a></li>
+                                    <li><a href="#">Verplanten van bomen</a></li>
+                                    <li><a href="#">Kroon- en kluitverankering</a></li>
+                                    <li><a href="#">Ziekte- en plaagbestrijding</a></li>
+                                    <li><a href="#">Uitgraven of frezen van stronken</a></li>
+                                    <li><a href="#">Versnipperen en afvoeren van takken en loof</a></li>
+                                    <li><a href="#">Interventies voor, tijdens en na storm</a></li>
+                                    <li><a href="#">Advies</a></li>
+                                    <li><a href="#">Boomveiligheidsinspecties</a></li>
+                                    <li><a href="#">Boombescherming op werven</a></li>
+                                    <li><a href="#">Inventarisatie en beheer planning van boombestanden</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+
+            <header class="mobile-header">
+                <div class="mobile-sitename">
+                    <h1>ARBOR SERVICE</h1>
+                </div>
+                <div class="mobile-core-business">
+                    <span>boomchirurgie en tuinonderhoud</span>
+                </div>
+            </header>
+        </div><!-- end of mobile-version-wrap -->
+
+        <!-- main content in de right-container is ook enkel zichtbaar bij mobile toestellen 960px -->
+        <div class="container right-container">
             <aside class="main-content">
                 <h1>ARBOR BOOMVERZORGING TUINONDERHOUD</h1>
 
@@ -170,38 +140,64 @@
                 <p>Dankzij de opleiding bij BSBB, de Belgische School voor Boomverzorging en Bosbeheer
                     hebben we de nodige ervaring om u te helpen bij al uw problemen.</p>
             </aside>
-            <!-- block enkel voor de homepage -->
-            <div class="slider-block">
-                <img src="../images/html/slider.jpg">
-            </div>
-            <!-- contact gegevens en facebook banner-->
-            <!-- wordt een include wordt onderaan op elke pagina getoond -->
-            <aside class="contact-facebook-wrapper">
-                <div class="row">
-                    <div class="col-md-6 contact-wrap">
-                        <p>Joey Liberloo<br>
-                        Nijverheidsstraat 36<br>
-                        3583 Paal-Beringen<br>
-                        0491 55 09 99<br>
-                        joey.lib@hotmail.com</p>
-                    </div>
 
-                    <div class="col-md-6 facebook-wrap">
-                        <div class="fb-page" data-href="https://www.facebook.com/arborservice"
-                             data-tabs="" data-small-header="false"
-                             data-adapt-container-width="true"
-                             data-hide-cover="false"
-                             data-show-facepile="false">
-                            <div class="fb-xfbml-parse-ignore">
-                                <blockquote cite="https://www.facebook.com/arborservice">
-                                    <a href="https://www.facebook.com/arborservice">Arbor - service</a>
-                                </blockquote>
+            <!-- block enkel voor de homepage -->
+            <div class="desktop-footer">
+                <div class="slider-block">
+                    <img src="../images/html/slider.jpg">
+                </div>
+                <!-- contact gegevens en facebook banner-->
+                <!-- wordt een include wordt onderaan op elke pagina getoond -->
+                <aside class="contact-facebook-wrapper">
+                    <div class="row">
+                        <div class="col-md-6 contact-wrap">
+                            <p>Joey Liberloo<br>
+                                Nijverheidsstraat 36<br>
+                                3583 Paal-Beringen<br>
+                                0491 55 09 99<br>
+                                joey.lib@hotmail.com</p>
+                        </div>
+
+                        <div class="col-md-6 facebook-wrap">
+                            <div class="fb-page" data-href="https://www.facebook.com/arborservice"
+                                 data-tabs="" data-small-header="false"
+                                 data-adapt-container-width="true"
+                                 data-hide-cover="false"
+                                 data-show-facepile="false">
+                                <div class="fb-xfbml-parse-ignore">
+                                    <blockquote cite="https://www.facebook.com/arborservice">
+                                        <a href="https://www.facebook.com/arborservice">Arbor - service</a>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </aside>
+            </div>
+        </div><!-- end of main-content -->
+
+        <!-- mobile footer -->
+        <footer class="mobile-footer">
+            <div class="container">
+                <p>Joey Liberloo<br>
+                    Nijverheidsstraat 36<br>
+                    3583 Paal-Beringen<br>
+                    joey.lib@hotmail.com</p>
+
+                <div class="gsm">
+                    <a href="tel:+32491550999" class="btn btn-default">
+                        +32491550999
+                    </a>
                 </div>
-            </aside>
-        </div>
+                <div class="copyright">
+                    <!-- printen van het jaar omzetten in php -->
+                    <!-- <?php echo date("Y"); ?> -->
+                    &copy; ARBOR-SERVICE 2016
+                </div>
+
+            </div>
+        </footer>
+
     </div>
 </div>
 <script src="../js/facebook.js"></script>
