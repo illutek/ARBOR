@@ -1,0 +1,26 @@
+{##}
+{#
+/**
+* Dit op de leftside
+*/
+#}
+{% set attributes = attributes.addClass('site-branding') %}
+{% block content %}
+
+    <div class="site-branding__text">
+        <div class="col-md-12 logo">
+            <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+                <img src="{{ base_path ~ directory }}/logo_c7d401.png" alt="{{ 'Home'|t }}">
+            </a>
+        </div>
+        <div class="col-md-12">
+            <div class="site-branding__slogan core-business">
+                {{ site_slogan }}
+            </div>
+        </div>
+        <div class="col-md-12 site-branding__name site-name">
+            {{ site_name }}
+        </div>
+    </div>
+
+{% endblock %}

@@ -9,4 +9,5 @@ libraries:
   - arbor/globaljs
 
 regions:
+  sitebranding: 'Site branding'
   content: Content
