@@ -5705,7 +5705,7 @@ h2 {
   left: 0px;
   height: 100vh;
   padding: 0 50px 0;
-  background: url("../images/left-image_smaller.jpg") no-repeat center center fixed;
+  background: #009A3C url("../images/left-image_smaller.jpg") no-repeat center center fixed;
   background-size: cover; }
   .left-fixed-container .site-info {
     margin: 5vh 0;
@@ -5837,7 +5837,7 @@ h2 {
   background: #C7D401;
   color: #ffffff;
   position: fixed;
-  padding: 0px 10px;
+  padding: 80px 10px;
   top: 0px;
   left: 33%;
   width: 17%;
