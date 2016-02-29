@@ -14,6 +14,10 @@ Een extra class toegevoegd aan left-fixed-container, nl. trees op de bomen html 
 _leftSideTrees.scss bestand zorgen dat de sidebare steeds zichtbaar is.
 
 
+####Block pagetitle
+Deze via de node.html.twig uitgeschakeld, door de if structuur ´´´if not page´´´opzij te zetten.
+
+
 
 
 
