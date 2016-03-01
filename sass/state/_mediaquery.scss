@@ -3,7 +3,7 @@
 //================================
 
 @media only screen and (max-width: 1604px) {
-  /* CSS code for tablets in landscape mode */
+  /*  */
   .right-container {
     h1 {
       font-size: $h1LessBig; //48px/16px
@@ -39,7 +39,12 @@
   .sidebar, .left-fixed-container, .desktop-footer {
     display: block;
   }
-
+  .right-container {
+    img {
+      float: left;
+      margin-right: 15px;
+    }
+  }
 }
 
 @media only screen and (max-width: 960px) {
@@ -92,7 +97,6 @@
     padding: 1em;
     h1 {
       font-size: $h1Smaller; //28px/16px
-
     }
     .mobile-core-business {
       padding-bottom: 15px;
@@ -100,6 +104,10 @@
       font-weight: bold;
     }
   }
+  img {
+     width: 100%;
+     height: auto;
+   }
 }
 
 @media only screen and (max-width: 321px) {
@@ -109,5 +117,4 @@
       font-size: $h1Smalst;
     }
   }
-
 }
