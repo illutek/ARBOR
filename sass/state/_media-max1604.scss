@@ -1,0 +1,19 @@
+//================================
+// @@ ++ 
+//================================
+
+@media only screen and (max-width: 1604px) {
+  /*  */
+  .right-container {
+    h1 {
+      font-size: $h1LessBig; //48px/16px
+    }
+  }
+  .left-fixed-container {
+    .site-info {
+      .site-name {
+        font-size: $h1LessBig;
+      }
+    }
+  }
+}

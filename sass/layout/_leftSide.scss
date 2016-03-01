@@ -27,18 +27,11 @@
       display: inline-block;
       color: #ffffff;
       padding: 5px 10px;
-      //transition-delay: .8s;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
+      @include transition(0.8);
       font-size: 1.5em; //24px / 16px
     }
     .site-name {
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
+      @include transition(0.8);
       @extend %fontBig;
       color: #ffffff;
       float: right;

@@ -27,6 +27,9 @@
         text-decoration: none;
         color: $newGreenMain;
       }
+      &.is-active {
+               color: $newGreenMain;
+             }
     }
   }
 }

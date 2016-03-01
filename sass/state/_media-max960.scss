@@ -1,0 +1,28 @@
+//================================
+// @@ ++ 
+//================================
+
+@media only screen and (max-width: 960px) {
+  /* css code voor tablets in portrait mode */
+  //lower than 960px switch to mobile version
+
+  .sidebar, .left-fixed-container, .desktop-footer, input#sidebartoggler {
+    display: none;
+  }
+  .mobile-version-wrap, .mobile-footer {
+    display: block;
+  }
+
+  .wrapper {
+    background: url("../images/left-image_smaller.jpg") no-repeat;
+    //height: 92vh;
+    background-size: cover;
+  }
+  .right-container {
+    background: none;
+    .main-content {
+      background: url("../images/background-mobile-content.png") repeat;
+      padding: 15px;
+    }
+  }
+}

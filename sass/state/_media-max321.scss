@@ -1,0 +1,13 @@
+//================================
+// @@ ++ Media query's
+//================================
+
+
+@media only screen and (max-width: 321px) {
+  /* css code voor smartphones in portrait mode */
+  .right-container {
+    h1 {
+      font-size: $h1Smalst;
+    }
+  }
+}

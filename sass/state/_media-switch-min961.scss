@@ -1,0 +1,22 @@
+//================================
+// @@ ++ 
+//================================
+
+@media only screen and (min-width: 961px) {
+  //higher than 960px switch to desktop version
+
+  //mobile
+  .mobile-version-wrap, .mobile-footer {
+    display: none;
+  }
+
+  .sidebar, .left-fixed-container, .desktop-footer {
+    display: block;
+  }
+  .right-container {
+    img {
+      float: left;
+      margin-right: 15px;
+    }
+  }
+}
