@@ -30,10 +30,8 @@
         </div>
         <!-- navigation tree -->
         <div class="sidebar">
-            <ul>
-                {# menu-sidebar-dropdown.inc.twig #}
-                {% include directory ~ '/templates/partials/menu-sidebar-dropdown.inc.twig' %}
-            </ul>
+            {# menu block bomen #}
+            {{ page.menubomen }}
         </div>
 
         {# Het mobile gedeelte, enkel zichtbaar bij minder dan 960px #}
@@ -126,7 +124,8 @@
                     </div>
                 </aside>
             </div>
-        </div><!-- end of main-content -->
+        </div>
+        <!-- end of main-content -->
 
         <!-- mobile footer -->
         <footer class="mobile-footer">

@@ -5837,7 +5837,7 @@ h2 {
   background: #C7D401;
   color: #ffffff;
   position: fixed;
-  padding: 80px 10px;
+  padding: 75px 10px;
   top: 0px;
   left: 33%;
   width: 17%;
@@ -5845,6 +5845,9 @@ h2 {
   z-index: 0;
   height: 100vh;
   cursor: pointer; }
+  .container-wrap .sidebar h2 {
+    padding-bottom: 25px;
+    font-size: 1.5em; }
   .container-wrap .sidebar li {
     color: #000000;
     padding-bottom: 10px; }
