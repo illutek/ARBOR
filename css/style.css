@@ -5764,7 +5764,7 @@ h2 {
   .page-node-type-trees .left-fixed-container {
     width: 33%; }
     .page-node-type-trees .left-fixed-container .site-info .core-business {
-      font-size: 1.25em; }
+      font-size: 1.0em; }
     .page-node-type-trees .left-fixed-container .site-info .site-name {
       font-size: 2em; } }
 @media only screen and (min-width: 1601px) {
@@ -5948,10 +5948,16 @@ h2 {
 .navbar {
   margin-bottom: 0; }
 
-@media only screen and (max-width: 321px) {
-  /* css code voor smartphones in portrait mode */
-  .right-container h1, .right-container h2 {
-    font-size: 1.5em; } }
+@media only screen and (min-width: 961px) {
+  .mobile-version-wrap, .mobile-footer {
+    display: none; }
+
+  .sidebar, .left-fixed-container, .desktop-footer {
+    display: block; }
+
+  .right-container img {
+    float: left;
+    margin-right: 15px; } }
 @media only screen and (max-width: 1604px) {
   /*  */
   .right-container h1, .right-container h2 {
@@ -6009,8 +6015,12 @@ h2 {
   .right-container {
     height: auto;
     padding: 1em; }
-    .right-container h1, .right-container h2 {
-      font-size: 1.75em; }
+    .right-container h2 {
+      font-size: 1.75em;
+      margin-bottom: 20px; }
+    .right-container img {
+      width: 100%;
+      height: auto; }
     .right-container .mobile-core-business {
       padding-bottom: 15px;
       font-family: 'Rubik', sans-serif;
@@ -6019,15 +6029,12 @@ h2 {
   img {
     width: 100%;
     height: auto; } }
-@media only screen and (min-width: 961px) {
-  .mobile-version-wrap, .mobile-footer {
-    display: none; }
-
-  .sidebar, .left-fixed-container, .desktop-footer {
-    display: block; }
-
-  .right-container img {
-    float: left;
-    margin-right: 15px; } }
+@media only screen and (max-width: 321px) {
+  /* css code voor smartphones in portrait mode */
+  .right-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px; } }
+.toolbar .toolbar-toggle-orientation button {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

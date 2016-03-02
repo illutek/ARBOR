@@ -1,5 +1,5 @@
 //================================
-// @@ ++ 
+// @@ ++ Media query 479
 //================================
 
 @media only screen and (max-width: 479px) {
@@ -7,8 +7,14 @@
   .right-container {
     height: auto;
     padding: 1em;
-    h1 {
-      font-size: $h1Smaller; //28px/16px
+    h2 {
+      font-size: $h1Smaller;
+      margin-bottom: 20px;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
     }
     .mobile-core-business {
       padding-bottom: 15px;
