@@ -15,14 +15,22 @@
 
   .wrapper {
     background: url("../images/left-image_smaller.jpg") no-repeat;
-    //height: 92vh;
     background-size: cover;
   }
   .right-container {
     background: none;
+    margin-left: 0;
+    width: 100%;
     .main-content {
-      background: url("../images/background-mobile-content.png") repeat;
+      background: rgba(255, 255, 255, 0.9);
       padding: 15px;
+    }
+    img {
+      width: 33%;
+      height: auto;
+      float: left;
+      margin-right: 15px;
     }
   }
 }
+
