@@ -5,6 +5,14 @@
 
 @media only screen and (max-width: 321px) {
   /* css code voor smartphones in portrait mode */
+
+  .mobile-header {
+    .mobile-sitename {
+      h1 {
+        font-size: $h1Small; //40px/16px
+      }
+    }
+  }
   .right-container {
     h1 {
       font-size: $h1Smalst;

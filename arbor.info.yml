@@ -1,6 +1,6 @@
 name: arbor
 type: theme
-description: 'Een split theme met bootstrap met 2 aparte containers voor de desktop en mobile versie.'
+description: 'A split screen responsive theme, with bootstrap as framework.'
 base theme: classy
 package: Custom
 core: 8.x

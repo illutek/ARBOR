@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,500,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5669,7 +5670,7 @@ table {
   font-size: 4.8125em; }
 
 html, body, section, div {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%; }
 
 p {
@@ -5717,22 +5718,22 @@ h2 {
       float: right;
       margin: 0 0 10px 0; }
     .left-fixed-container .site-info .core-business {
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
       background: #C7D401;
       display: inline-block;
       color: #ffffff;
       padding: 5px 10px;
-      -webkit-transition: all 0.8 ease;
-      -moz-transition: all 0.8 ease;
-      -o-transition: all 0.8 ease;
-      -ms-transition: all 0.8 ease;
       font-size: 1.5em; }
     .left-fixed-container .site-info .site-name {
-      -webkit-transition: all 0.8 ease;
-      -moz-transition: all 0.8 ease;
-      -o-transition: all 0.8 ease;
-      -ms-transition: all 0.8 ease;
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
       color: #ffffff;
       float: right;
       margin: 50px 0px; }
@@ -5872,10 +5873,10 @@ h2 {
     #sidebartoggler:checked + .container-wrap .left-fixed-container {
       width: 33%; }
       #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .core-business {
-        -webkit-transition: all 0.8 ease;
-        -moz-transition: all 0.8 ease;
-        -o-transition: all 0.8 ease;
-        -ms-transition: all 0.8 ease;
+        -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
         font-size: 1.0em; }
       #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .site-name {
         -webkit-transition: all 0.8s ease;
@@ -5891,11 +5892,17 @@ h2 {
     color: #ffffff; }
     #sidebartoggler:checked + .container-wrap .left-fixed-container {
       width: 33%; }
+      #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .core-business {
+        -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
+        font-size: 1.0em; }
       #sidebartoggler:checked + .container-wrap .left-fixed-container .site-info .site-name {
-        -webkit-transition: all 0.8 ease;
-        -moz-transition: all 0.8 ease;
-        -o-transition: all 0.8 ease;
-        -ms-transition: all 0.8 ease;
+        -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
         font-family: 'Rubik', sans-serif;
         font-weight: 900;
         font-size: 3em; } }
@@ -6021,17 +6028,18 @@ h2 {
       margin-bottom: 20px; }
     .right-container img {
       width: 100%;
-      height: auto; }
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 10px; }
     .right-container .mobile-core-business {
       padding-bottom: 15px;
       font-family: 'Rubik', sans-serif;
-      font-weight: bold; }
-
-  img {
-    width: 100%;
-    height: auto; } }
+      font-weight: bold; } }
 @media only screen and (max-width: 321px) {
   /* css code voor smartphones in portrait mode */
+  .mobile-header .mobile-sitename h1, .mobile-header .mobile-sitename .right-container h2, .right-container .mobile-header .mobile-sitename h2 {
+    font-size: 2em; }
+
   .right-container h1, .right-container h2 {
     font-size: 1.5em;
     margin-bottom: 20px; } }

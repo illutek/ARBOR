@@ -37,8 +37,8 @@
 }
 
 //transition
-// use @include transition(x);
-@mixin transition ($transform){
+// use @include transition(xs);
+@mixin transition ($transform) {
   -webkit-transition: all $transform ease;
   -moz-transition: all $transform ease;
   -o-transition: all $transform ease;

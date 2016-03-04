@@ -1,11 +1,25 @@
+{#
+/**
+ * Created by PhpStorm.
+ * User: Stefan
+ * Date: 14/02/2016
+ * Time: 16:23
+ * splitscreen layout with 3 maincontainers
+ * left-fixed-container, sidebar en right-container
+ */#}
+{# facebook id #}
 <div id="fb-root"></div>
 
-{# splitscreen layout met 3 hoofd containers, left-fixed-container, sidebar en right-container #}
 <div class="wrapper">
     <input type="checkbox" id="sidebartoggler" name="" value="">
 
     <div class="container-wrap">
-        {# left side with logo-sitename and main-menu #}
+        {#
+        /**
+        * left side with logo-sitename and main-menu
+        * only visible in the desktop version
+        */
+        #}
         <div class="left-fixed-container">
             <aside>
                 <div class="row site-info">
@@ -17,7 +31,7 @@
                         <ul>
                             {# main-menu.inc.twig #}
                             {% include directory ~ '/templates/partials/main-menu.inc.twig' %}
-                            {# link om sidebar menu te tonen schuifsysteem zuiver ùet css via checkbox #}
+                            {# link om sidebar menu te tonen schuifsysteem zuiver het css via checkbox #}
                             <label for="sidebartoggler" class="toggle">Boomverzorging </label>
                         </ul>
                     </div>
@@ -28,30 +42,30 @@
                 </div>
             </aside>
         </div>
-        <!-- navigation tree -->
+
+        {#
+        /**
+        * navigation tree
+        * only visible after clicking 'label for="sidebartoggler"' in main-menu
+        */
+        #}
         <div class="sidebar">
             {# menu block bomen #}
             {{ page.menubomen }}
         </div>
 
-        {# Het mobile gedeelte, enkel zichtbaar bij minder dan 960px #}
+        {#
+        /**
+        * mobile section, visible only at less than 960px
+        * _media-sitch-min961.scss does the trick
+        */
+        #}
         <div class="mobile-version-wrap">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
-                    <!-- Toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            {# de bootstrap icon-bar vervangen door hamburger effects van
-                            https://github.com/jonsuh/hamburgers #}
-                            <div class="hamburger hamburger--spin">
-                                <div class="hamburger-box">
-                                    <div class="hamburger-inner"></div>
-                                </div>
-                            </div>
-                        </button>
-                    </div>
+                    {# Toggle get grouped for better mobile display #}
+                    {# hamburger.inc.twig #}
+                    {% include directory ~ '/templates/partials/hamburger.inc.twig' %}
 
                     {# Collect the nav links, forms, and other content for toggling #}
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,9 +83,9 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- /.navbar-collapse -->
+                    {# end of .navbar-collapse #}
                 </div>
-                <!-- /.container-fluid -->
+                {# end of container-fluid #}
             </nav>
 
             <header class="mobile-header">
@@ -84,7 +98,11 @@
             </header>
         </div>{# end of mobile-version-wrap #}
 
-        {# main content in de right-container voor zowel desktop als mobile devices #}
+        {#
+        /**
+        * main content in the right container for both desktop and mobile devices
+        */
+        #}
         <div class="container right-container">
             <aside class="main-content">
                 {# Action Links #}
@@ -108,15 +126,18 @@
                 {% endblock %}
             </aside>
 
-            {# zichtbaar op elke pagina maar niet bij de mobile versie #}
+            {# visible on every page but not on the mobile version #}
             <div class="desktop-footer">
 
-                <!-- contact gegevens en facebook banner-->
-                <!-- wordt een include wordt onderaan op elke pagina getoond -->
+                {#
+                /**
+                * contact and facebook wrapper
+                */
+                #}
                 <aside class="contact-facebook-wrapper">
                     <div class="row">
                         <div class="col-md-6 contact-wrap">
-                            {# contactgegevens en gsm include #}
+                            {# contact and gsm include #}
                             {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
                             {% include directory ~ '/templates/partials/gsm.inc.twig' %}
                         </div>
@@ -129,9 +150,9 @@
                 </aside>
             </div>
         </div>
-        <!-- end of main-content -->
+        {# end of main-content #}
 
-        <!-- mobile footer -->
+        {# mobile footer #}
         <footer class="mobile-footer">
             <div class="container">
                 {% include directory ~ '/templates/partials/contact_data.inc.twig' %}

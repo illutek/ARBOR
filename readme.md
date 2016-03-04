@@ -38,6 +38,12 @@ Ook bij de templates een directory aangehouden
   - user
   - views
   
+####Mediaquery's
+  
+  
+####Page.html.twig
+Veel vuldig gebruik gemaakt van includes, dit om bij een volgend project een aantal dingen gemakkelijk te hergebruiken.
+
 Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar 
 te houden.  
 Het include op de page.html.twig met volgende code

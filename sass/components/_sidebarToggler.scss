@@ -16,14 +16,11 @@
         width: 33%;
         .site-info {
           .core-business {
-            @include transition(0.8);
+            @include transition(0.8s);
             font-size: 1.0em; //16px / 16px
           }
           .site-name {
-            -webkit-transition: all 0.8s ease;
-            -moz-transition: all 0.8s ease;
-            -o-transition: all 0.8s ease;
-            -ms-transition: all 0.8s ease;
+            @include transition(0.8s);
             font-family: 'Rubik', sans-serif;
             font-weight: 900;
             font-size: $h1Small;
@@ -43,8 +40,18 @@
       .left-fixed-container {
         width: 33%;
         .site-info {
+          .core-business {
+            -webkit-transition: all 0.8s ease;
+            -moz-transition: all 0.8s ease;
+            -o-transition: all 0.8s ease;
+            -ms-transition: all 0.8s ease;
+            font-size: 1.0em; //16px / 16px
+          }
           .site-name {
-            @include transition(0.8);
+            -webkit-transition: all 0.8s ease;
+            -moz-transition: all 0.8s ease;
+            -o-transition: all 0.8s ease;
+            -ms-transition: all 0.8s ease;
             font-family: 'Rubik', sans-serif;
             font-weight: 900;
             font-size: $h1LessBig;
