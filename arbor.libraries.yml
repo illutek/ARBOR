@@ -7,5 +7,6 @@ globaljs:
   js:
     js/bootstrap.min.js: {}
     js/facebook.js: {}
+    js/hamburger.js: {}
   dependencies:
     - core/jquery
