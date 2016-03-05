@@ -1,4 +1,8 @@
+//================================
+// @@ ++ Mixin
+//================================
 // generic transform
+// use @include transform(x);
 @mixin transform($transforms) {
   -moz-transform: $transforms;
   -o-transform: $transforms;
@@ -28,6 +32,7 @@
   @include transform(skew(#{$x}deg, #{$y}deg));
 }
 //transform origin
+// use @include transform-origin(x);
 @mixin transform-origin ($origin) {
   -moz-transform-origin: $origin;
   -o-transform-origin: $origin;
@@ -37,7 +42,7 @@
 }
 
 //transition
-// use @include transition(xs);
+// use @include transition(xs); value + s
 @mixin transition ($transform) {
   -webkit-transition: all $transform ease;
   -moz-transition: all $transform ease;

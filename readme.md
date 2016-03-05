@@ -44,9 +44,16 @@ Ook bij de templates een directory aangehouden
 ####Page.html.twig
 Veel vuldig gebruik gemaakt van includes, dit om bij een volgend project een aantal dingen gemakkelijk te hergebruiken.
 
-Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar 
+#### Inhoudstypes
+trees - alle inhoud over boomverzorging,  hierdoor een extra class aan de body tag nl. 'page-node-type-trees'
+één extra scss bestand '_leftSideTrees.scss' zorgt ervoor dat zolang de bezoeker op deze boomverzorging pagina's
+vertoefd het submenu trees niet terug dichtklapt.
+
+
+####Partials
+Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar/modulair 
 te houden.  
-Het include op de page.html.twig met volgende code
+Het include op de page.html.twig van een partial met volgende code
 ´´´{% include directory ~ '/templates/partials/contact_data.inc.twig' %}´´´  
 
 
