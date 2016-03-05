@@ -1,9 +1,12 @@
 {#
 /**
- * 
+ * Main-menu
  */
 #}
-
-<li><a href="{{ path('<front>') }}" rel="home">Home</a></li>
-<li><a href="{{ base_path }}tuinwerken">Tuinwerken</a></li>
-<li><a href="{{ base_path }}bedrijven">Bedrijven</a></li>
+<ul>
+    <li><a href="{{ path('<front>') }}" rel="home">Home</a></li>
+    <li><a href="{{ base_path }}tuinwerken">Tuinwerken</a></li>
+    <li><a href="{{ base_path }}bedrijven">Bedrijven</a></li>
+    {# link to display the sidebar menu sliding pure CSS via checkbox #}
+    <label for="sidebartoggler" class="toggle">Boomverzorging </label>
+</ul>

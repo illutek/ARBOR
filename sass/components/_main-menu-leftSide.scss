@@ -5,21 +5,26 @@
   text-align: right;
   .main-menu {
     background: url("../images/background_nav.jpg") no-repeat;
-    @include opacity-decimal(.7);
+    @include opacity-decimal(.8);
     display: inline-block;
     font-size: 1.25em; //20px / 16px
     padding: 20px;
     li, label {
       font-weight: bold;
       a {
-        color: #ffffff;
+        color: #000000;
         &:hover {
           text-decoration: none;
+          color: $newGreenMain;
         }
       }
     }
     label {
       padding-top: 5px;
+      color: #000000;
+      &:hover {
+        color: $newGreenMain;
+      }
     }
   }
 }
