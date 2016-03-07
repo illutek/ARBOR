@@ -32,9 +32,11 @@
                     * main-menu.inc.twig
                     */
                     #}
-                    {% include directory ~ '/templates/partials/main-menu.inc.twig' %}
-                    {# link to display the sidebar menu sliding pure CSS via checkbox #}
-                    <label for="sidebartoggler" class="toggle">{{ "Boomverzorging"|upper }} </label>
+                    <ul>
+                        {% include directory ~ '/templates/partials/main-menu.inc.twig' %}
+                        {# link to display the sidebar menu sliding pure CSS via checkbox #}
+                        <label for="sidebartoggler" class="toggle">{{ "Boomverzorging"|upper }} </label>
+                    </ul>
                 </div>
             </div>
             <div class="copyright-desktop">
@@ -50,7 +52,8 @@
         */
         #}
         <aside class="sidebar">
-            {# menu block bomen #}
+            <h2>{{ "Boomverzorging" }}</h2>
+            {# menu block bomen block is used twice, in the mobile navigation #}
             {{ page.menubomen }}
         </aside>
 
@@ -77,7 +80,7 @@
                                    aria-haspopup="true"
                                    aria-expanded="false">{{ "Boomverzorging"|upper }} <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    {# menu-sidebar-dropdown.inc.twig #}
+                                    {# menu block bomen #}
                                     {{ page.menubomen }}
                                 </ul>
                             </li>
@@ -90,10 +93,11 @@
 
             <header class="mobile-header">
                 <div class="mobile-sitename">
-                    <h1>ARBOR-SERVICE</h1>
+                    {# todo print sitename and slogan the Drupal way #}
+                    <h1>{{ site_name }}</h1>
                 </div>
                 <div class="mobile-core-business">
-                    <span>boomchirurgie en tuinonderhoud</span>
+                    <span>{{ site_slogan }}</span>
                 </div>
             </header>
         </div>{# end of mobile-version-wrap #}

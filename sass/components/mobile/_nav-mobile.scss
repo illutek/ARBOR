@@ -48,11 +48,16 @@
     .open {
       .dropdown-menu {
         background: $newGreenMain;
-        &>li {
-          &>a {
-            color: #ffffff;
+        ul {
+          padding-left: 50px;
+          li {
+            padding: 10px 0;
+            a {
+              color: #ffffff;
+            }
           }
         }
+
       }
     }
   }

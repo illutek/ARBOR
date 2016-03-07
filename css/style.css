@@ -7778,7 +7778,6 @@ h2 {
     color: #009A3C; }
   .mobile-header .mobile-core-business {
     padding-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
     font-weight: bold; }
 
 .mobile-footer {
@@ -7934,8 +7933,12 @@ h2 {
     background-color: #009A3C; }
   .navbar-default .navbar-nav .open .dropdown-menu {
     background: #009A3C; }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #ffffff; }
+    .navbar-default .navbar-nav .open .dropdown-menu ul {
+      padding-left: 50px; }
+      .navbar-default .navbar-nav .open .dropdown-menu ul li {
+        padding: 10px 0; }
+        .navbar-default .navbar-nav .open .dropdown-menu ul li a {
+          color: #ffffff; }
 
 .navbar {
   margin-bottom: 0; }
