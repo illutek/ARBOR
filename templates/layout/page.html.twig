@@ -20,28 +20,28 @@
         * only visible in the desktop version
         */
         #}
-        <div class="left-fixed-container">
-            <aside>
-                <div class="row site-info">
-                    {# block--system-branding-block.html.twig #}
-                    {{ page.sitebranding }}
+        <aside class="left-fixed-container">
+            <div class="row site-info">
+                {# block--system-branding-block.html.twig #}
+                {{ page.sitebranding }}
+            </div>
+            <div class="col-md-12 menu-container">
+                <div class="main-menu">
+                    {#
+                    /**
+                    * main-menu.inc.twig
+                    */
+                    #}
+                    {% include directory ~ '/templates/partials/main-menu.inc.twig' %}
+                    {# link to display the sidebar menu sliding pure CSS via checkbox #}
+                    <label for="sidebartoggler" class="toggle">{{ "Boomverzorging"|upper }} </label>
                 </div>
-                <div class="col-md-12 menu-container">
-                    <div class="main-menu">
-                            {#
-                            /**
-                            * main-menu.inc.twig
-                            */
-                            #}
-                            {% include directory ~ '/templates/partials/main-menu.inc.twig' %}
-                    </div>
-                </div>
-                <div class="copyright-desktop">
-                    {# copyright.inc.twig #}
-                    {% include directory ~ '/templates/partials/copyright.inc.twig' %}
-                </div>
-            </aside>
-        </div>
+            </div>
+            <div class="copyright-desktop">
+                {# copyright.inc.twig #}
+                {% include directory ~ '/templates/partials/copyright.inc.twig' %}
+            </div>
+        </aside>
 
         {#
         /**
@@ -49,10 +49,10 @@
         * only visible after clicking 'label for="sidebartoggler"' in main-menu
         */
         #}
-        <div class="sidebar">
+        <aside class="sidebar">
             {# menu block bomen #}
             {{ page.menubomen }}
-        </div>
+        </aside>
 
         {#
         /**
@@ -75,10 +75,10 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                    aria-haspopup="true"
-                                   aria-expanded="false">Boomverzorging <span class="caret"></span></a>
+                                   aria-expanded="false">{{ "Boomverzorging"|upper }} <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     {# menu-sidebar-dropdown.inc.twig #}
-                                    {% include directory ~ '/templates/partials/menu-sidebar-dropdown.inc.twig' %}
+                                    {{ page.menubomen }}
                                 </ul>
                             </li>
                         </ul>
@@ -103,64 +103,68 @@
         * main content in the right container for both desktop and mobile devices
         */
         #}
-        <div class="container right-container">
-            <aside class="main-content">
-                {# Action Links #}
-                {% if action_links %}
-                    {% block action_links %}
-                        <ul class="action-links">{{ action_links }}</ul>
-                    {% endblock %}
-                {% endif %}
+        <aside class="container right-container">
+            <div class="main-content">
+                <main>
+                    {# Action Links #}
+                    {% if action_links %}
+                        {% block action_links %}
+                            <ul class="action-links">{{ action_links }}</ul>
+                        {% endblock %}
+                    {% endif %}
 
-                {# Help #}
-                {% if page.help %}
-                    {% block help %}
-                        {{ page.help }}
-                    {% endblock %}
-                {% endif %}
+                    {# Help #}
+                    {% if page.help %}
+                        {% block help %}
+                            {{ page.help }}
+                        {% endblock %}
+                    {% endif %}
 
-                {# Content #}
-                {% block content %}
-                    <a id="main-content"></a>
-                    {{ page.content }}
-                {% endblock %}
-            </aside>
+                    {# Content #}
+                    {% block content %}
+                        <a id="main-content"></a>
+                        {{ page.content }}
+                    {% endblock %}
+                </main>
+            </div>
 
             {# visible on every page but not on the mobile version #}
-            <div class="desktop-footer">
-
+            <footer class="desktop-footer">
                 {#
                 /**
                 * contact and facebook wrapper
                 */
                 #}
-                <aside class="contact-facebook-wrapper">
+                <div class="contact-facebook-wrapper">
                     <div class="row">
-                        <div class="col-md-6 contact-wrap">
+                        <address class="col-md-6 contact-wrap">
                             {# contact and gsm include #}
+                            {# contact_data.inc.twig and gsm.inc.twig and facebook.inc.twig #}
                             {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
                             <i class="fa fa-phone-square"></i>{% include directory ~ '/templates/partials/gsm.inc.twig' %}
-                        </div>
+                        </address>
 
                         <div class="col-md-6 facebook-wrap">
                             {# facebook.inc.twig #}
                             {% include directory ~ '/templates/partials/facebook.inc.twig' %}
                         </div>
                     </div>
-                </aside>
-            </div>
-        </div>
-        {# end of main-content #}
+                </div>
+            </footer>
+        </aside>
+        {# end of main-content right-container #}
 
         {# mobile footer #}
         <footer class="mobile-footer">
             <div class="container">
-                {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
-                <div class="gsm">
-                    <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}" class="btn btn-default">
-                        <i class="fa fa-phone-square fa-lg"></i>  {% include directory ~ '/templates/partials/gsm.inc.twig' %}
-                    </a>
-                </div>
+                <address>
+                    {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
+                    <div class="gsm">
+                        <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}" class="btn btn-default">
+                            <i class="fa fa-phone-square fa-lg"></i> {% include directory ~ '/templates/partials/gsm.inc.twig' %}
+                        </a>
+                    </div>
+                </address>
                 <div class="copyright">
                     {# copyright.inc.twig #}
                     {% include directory ~ '/templates/partials/copyright.inc.twig' %}

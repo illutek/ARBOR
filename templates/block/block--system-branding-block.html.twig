@@ -1,18 +1,19 @@
-{##}
 {#
 /**
-* Dit op de leftside
+* Created by PhpStorm.
+* User: Stefan
+* This on the leftside
 */
 #}
 {% set attributes = attributes.addClass('site-branding') %}
 {% block content %}
 
     <div class="site-branding__text">
-        <div class="col-md-12 logo">
+        <figure class="col-md-12 logo">
             <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
                 <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
             </a>
-        </div>
+        </figure>
         <div class="col-md-12">
             <div class="site-branding__slogan core-business">
                 {{ site_slogan }}
