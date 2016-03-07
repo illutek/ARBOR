@@ -24,6 +24,9 @@
     .left-fixed-container {
       width: 33%;
       .site-info {
+        .core-business {
+          font-size: 1.0em; //16px / 16px
+        }
         .site-name {
           font-size: $h1LessBig;
         }

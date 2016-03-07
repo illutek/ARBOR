@@ -2,7 +2,6 @@ globalstyle:
   css:
     theme:
       css/style.css: {}
-
 globaljs:
   js:
     js/bootstrap.min.js: {}

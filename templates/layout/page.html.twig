@@ -139,7 +139,7 @@
                         <div class="col-md-6 contact-wrap">
                             {# contact and gsm include #}
                             {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
-                            {% include directory ~ '/templates/partials/gsm.inc.twig' %}
+                            <i class="fa fa-phone-square"></i>{% include directory ~ '/templates/partials/gsm.inc.twig' %}
                         </div>
 
                         <div class="col-md-6 facebook-wrap">
@@ -158,7 +158,7 @@
                 {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
                 <div class="gsm">
                     <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}" class="btn btn-default">
-                        {% include directory ~ '/templates/partials/gsm.inc.twig' %}
+                        <i class="fa fa-phone-square fa-lg"></i>  {% include directory ~ '/templates/partials/gsm.inc.twig' %}
                     </a>
                 </div>
                 <div class="copyright">
