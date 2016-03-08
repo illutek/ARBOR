@@ -13,14 +13,14 @@
   #sidebartoggler {
     display: none;
     &:checked + .container-wrap {
-      .left-fixed-container {
+      .left-side {
         width: 33%;
-        .site-info {
-          .core-business {
+        .left-side__site-info {
+          .site-branding__slogan {
             @include transition(0.8s);
             font-size: 1.0em; //16px/16px
           }
-          .site-name {
+          .site-branding__name {
             @include transition(0.8s);
             font-family: 'Rubik', sans-serif;
             font-weight: 900;
@@ -38,14 +38,14 @@
     display: none;
     color: #ffffff;
     &:checked + .container-wrap {
-      .left-fixed-container {
+      .left-side {
         width: 33%;
-        .site-info {
-          .core-business {
+        .left-side__site-info {
+          .site-branding__slogan {
             @include transition(0.8s);
             font-size: 1.0em; //16px/16px
           }
-          .site-name {
+          .site-branding__name {
             @include transition(0.8s);
             font-family: 'Rubik', sans-serif;
             font-weight: 900;

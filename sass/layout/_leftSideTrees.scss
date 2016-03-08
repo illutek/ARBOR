@@ -4,13 +4,13 @@
 @media only screen and (max-width: 1600px) and (min-width: 961px) {
   // for screen from 961px to 1600px
   .page-node-type-trees {
-    .left-fixed-container {
+    .left-side {
       width: 33%;
-      .site-info {
-        .core-business {
+      .left-side__site-info {
+        .site-branding__slogan {
           font-size: 1.0em; //16px / 16px
         }
-        .site-name {
+        .site-branding__name {
           font-size: $h1Small;
         }
       }
@@ -20,14 +20,15 @@
 
 @media only screen and (min-width: 1601px) {
   // for large screens over 1601px
+  // .page-node-type-trees from contenttype 'trees'
   .page-node-type-trees {
-    .left-fixed-container {
+    .left-side {
       width: 33%;
-      .site-info {
-        .core-business {
+      .left-side__site-info {
+        .site-branding__slogan {
           font-size: 1.0em; //16px / 16px
         }
-        .site-name {
+        .site-branding__name {
           font-size: $h1LessBig;
         }
       }

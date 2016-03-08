@@ -1,0 +1,10 @@
+//================================
+// @@ ++ Mixin transition
+//================================
+// use @include transition(xs); value + s
+@mixin transition ($transform) {
+  -webkit-transition: all $transform ease;
+  -moz-transition: all $transform ease;
+  -o-transition: all $transform ease;
+  -ms-transition: all $transform ease;
+}

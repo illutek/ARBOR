@@ -2,7 +2,7 @@
 // @@ ++ Left Side structure
 //================================
 
-.left-fixed-container {
+.left-side {
   width: 50%;
   transition-delay: .1s;
   transition: width 0.8s;
@@ -13,14 +13,14 @@
   padding: 0 50px 0;
   background: $newGreenMain url("../images/left-image_smaller.jpg") no-repeat center center fixed;
   background-size: cover;
-  .site-info {
+  .left-side__site-info {
     margin: 5vh 0;
     text-align: right;
-    .logo {
+    .site-branding__logo {
       float: right;
       margin: 0 0 10px 0;
     }
-    .core-business {
+    .site-branding__slogan {
       @include transition(0.8s);
       font-family: 'Rubik', sans-serif;
       font-weight: 500;
@@ -30,7 +30,7 @@
       padding: 5px 10px;
       font-size: 1.5em; //24px / 16px
     }
-    .site-name {
+    .site-branding__name {
       @include transition(0.8s);
       @extend %fontBig;
       color: #ffffff;
@@ -38,7 +38,7 @@
       margin: 50px 0px;
     }
   }
-  .copyright-desktop {
+  .left-side__copyright {
     color: #ffffff;
     position: absolute;
     bottom: 50px;

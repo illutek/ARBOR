@@ -9,17 +9,17 @@
 {% block content %}
 
     <div class="site-branding__text">
-        <figure class="col-md-12 logo">
+        <figure class="col-md-12 site-branding__logo">
             <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
-                <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+                <img src="{{ site_logo }}" alt="{{ 'Home'|t }}"/>
             </a>
         </figure>
         <div class="col-md-12">
-            <div class="site-branding__slogan core-business">
+            <div class="site-branding__slogan">
                 {{ site_slogan }}
             </div>
         </div>
-        <div class="col-md-12 site-branding__name site-name">
+        <div class="col-md-12 site-branding__name">
             {{ site_name }}
         </div>
     </div>

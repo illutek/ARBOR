@@ -23,6 +23,7 @@
 //=========================
 @import "mixin/opacity";
 @import "mixin/transform";
+@import "mixin/transition";
 //only for design reasons
 @import "mixin/outline";
 
@@ -46,7 +47,7 @@
 // @@ ++ Components
 //========================
 @import "components/main-menu-leftSide";
-@import "components/sidebar";
+@import "components/midle-menu";
 @import "components/sidebarToggler";
 @import "components/contact-facebook";
 @import "components/slider-block";

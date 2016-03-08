@@ -20,12 +20,12 @@
         * only visible in the desktop version
         */
         #}
-        <aside class="left-fixed-container">
-            <div class="row site-info">
+        <aside class="left-side">
+            <div class="row left-side__site-info">
                 {# block--system-branding-block.html.twig #}
                 {{ page.sitebranding }}
             </div>
-            <div class="col-md-12 menu-container">
+            <div class="col-md-12 left-site__menu-container">
                 <div class="main-menu">
                     {#
                     /**
@@ -39,7 +39,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="copyright-desktop">
+            <div class="left-side__copyright">
                 {# copyright.inc.twig #}
                 {% include directory ~ '/templates/partials/copyright.inc.twig' %}
             </div>
@@ -51,7 +51,7 @@
         * only visible after clicking 'label for="sidebartoggler"' in main-menu
         */
         #}
-        <aside class="sidebar">
+        <aside class="midle-menu-container">
             <h2>{{ "Boomverzorging" }}</h2>
             {# menu block bomen block is used twice, in the mobile navigation #}
             {{ page.menubomen }}
@@ -63,7 +63,7 @@
         * _media-sitch-min961.scss does the trick
         */
         #}
-        <div class="mobile-version-wrap">
+        <aside class="mobile-version-container">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     {# Toggle get grouped for better mobile display #}
@@ -91,24 +91,24 @@
                 {# end of container-fluid #}
             </nav>
 
-            <header class="mobile-header">
-                <div class="mobile-sitename">
-                    {# todo print sitename and slogan the Drupal way #}
+            <header class="mobile-version__header">
+                <div class="mobile-version__sitename">
+                    {# site_name and site_slogan are vars from arbor.theme#}
                     <h1>{{ site_name }}</h1>
                 </div>
-                <div class="mobile-core-business">
+                <div class="mobile-version__slogan">
                     <span>{{ site_slogan }}</span>
                 </div>
             </header>
-        </div>{# end of mobile-version-wrap #}
+        </aside>{# end of mobile-version-wrap #}
 
         {#
         /**
         * main content in the right container for both desktop and mobile devices
         */
         #}
-        <aside class="container right-container">
-            <div class="main-content">
+        <aside class="right-side">
+            <div class="right-side__main-content">
                 <main>
                     {# Action Links #}
                     {% if action_links %}
@@ -139,16 +139,16 @@
                 * contact and facebook wrapper
                 */
                 #}
-                <div class="contact-facebook-wrapper">
+                <div class="desktop-footer__contact-facebook-wrap">
                     <div class="row">
-                        <address class="col-md-6 contact-wrap">
+                        <address class="col-md-6 desktop-footer__contact-wrap">
                             {# contact and gsm include #}
                             {# contact_data.inc.twig and gsm.inc.twig and facebook.inc.twig #}
                             {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
                             <i class="fa fa-phone-square"></i>{% include directory ~ '/templates/partials/gsm.inc.twig' %}
                         </address>
 
-                        <div class="col-md-6 facebook-wrap">
+                        <div class="col-md-6 desktop-footer__facebook-wrap">
                             {# facebook.inc.twig #}
                             {% include directory ~ '/templates/partials/facebook.inc.twig' %}
                         </div>
@@ -163,18 +163,18 @@
             <div class="container">
                 <address>
                     {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
-                    <div class="gsm">
-                        <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}" class="btn btn-default">
+                    <div class="mobile-footer__gsm">
+                        <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}"
+                           class="btn btn-default">
                             <i class="fa fa-phone-square fa-lg"></i> {% include directory ~ '/templates/partials/gsm.inc.twig' %}
                         </a>
                     </div>
                 </address>
-                <div class="copyright">
+                <div class="mobile-footer__copyright">
                     {# copyright.inc.twig #}
                     {% include directory ~ '/templates/partials/copyright.inc.twig' %}
                 </div>
             </div>
         </footer>
-
     </div>
 </div>

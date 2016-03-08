@@ -3,22 +3,22 @@
 //================================
 
 @media only screen and (max-width: 1025px) {
-  .left-fixed-container {
-    .site-info {
-      .core-business {
+  .left-side {
+    .left-side__site-info {
+      .site-branding__slogan {
         font-size: 1.0em;
       }
-      .site-name {
+      .site-branding__name {
         font-size: $h1Standard;
       }
     }
   }
-  .container-wrap .sidebar {
+  .container-wrap .midle-menu-container {
     h2 {
       font-size: 1.0em;
     }
   }
-  .right-container {
+  .right-side {
     img {
       width: 50%;
       height: auto;

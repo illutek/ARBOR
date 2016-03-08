@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 479px) {
   /* css code voor smartphones in portrait mode */
-  .right-container {
+  .right-side {
     //height: auto;
     padding: 1em;
     h2 {
@@ -17,7 +17,7 @@
       margin-right: 0;
       margin-bottom: 10px;
     }
-    .mobile-core-business {
+    .mobile-version__slogan {
       padding-bottom: 15px;
       font-family: 'Rubik', sans-serif;
       font-weight: bold;

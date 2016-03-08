@@ -4,14 +4,14 @@
 
 @media only screen and (max-width: 1604px) {
   /*  */
-  .right-container {
+  .right-side {
     h1 {
       font-size: $h1LessBig; //48px/16px
     }
   }
-  .left-fixed-container {
-    .site-info {
-      .site-name {
+  .left-side {
+    .left-side__site-info {
+      .site-branding__name {
         font-size: $h1LessBig;
       }
     }

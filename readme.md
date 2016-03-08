@@ -15,15 +15,22 @@ Een extra class toegevoegd aan left-fixed-container, nl. trees op de bomen html 
 _leftSideTrees.scss bestand zorgen dat de sidebare steeds zichtbaar is, dit via de extra class dat de pagina meekrijgt
 via het inhoudstype 'trees' (class 'page-node-type-trees')
 
-####Block pagetitle
+###Block pagetitle
 Deze via de node.html.twig uitgeschakeld, door de if structuur ´´´if not page´´´opzij te zetten.
 
-####Block tabs
+###Block tabs
 Ook enkel zichtbaar voor de role administrator.
 
-####SASS
-De smacss structuur aangehouden, op github om dit bij een volgend project te hergebruiken 
+###SASS
+De SMACSS structuur aangehouden, en voorbeeld op github om dit bij een volgend project te hergebruiken 
 https://github.com/illutek/sass-directory
+
+####SMACSS
+https://www.drupal.org/taxonomy/term/40340
+
+####BEM
+Alle css class in de BEM format
+http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
 ####Templates
 Ook bij de templates een directory aangehouden  
@@ -39,13 +46,13 @@ Ook bij de templates een directory aangehouden
   - views
   
 ####Mediaquery's
-  
+Alle opgedeeld in verschillende files onder de directory 'state'
   
 ####Page.html.twig
 Veel vuldig gebruik gemaakt van includes, dit om bij een volgend project een aantal dingen gemakkelijk te hergebruiken.
 
 #### Inhoudstypes
-trees - alle inhoud over boomverzorging,  hierdoor een extra class aan de body tag nl. 'page-node-type-trees'
+'trees' - alle inhoud over boomverzorging,  hierdoor een extra class aan de body tag nl. 'page-node-type-trees'
 één extra scss bestand '_leftSideTrees.scss' zorgt ervoor dat zolang de bezoeker op deze boomverzorging pagina's
 vertoefd het submenu trees niet terug dichtklapt.
 

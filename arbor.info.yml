@@ -4,6 +4,7 @@ description: 'A split screen responsive theme, with bootstrap as framework.'
 base theme: classy
 package: Custom
 core: 8.x
+version: 8.x-1.0.0-rc
 libraries:
   - arbor/globalstyle
   - arbor/globaljs

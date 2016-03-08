@@ -6,10 +6,10 @@
   /* css code voor tablets in portrait mode */
   //lower than 960px switch to mobile version
 
-  .sidebar, .left-fixed-container, .desktop-footer, input#sidebartoggler {
+  .midle-menu-container, .left-side, .desktop-footer, input#sidebartoggler {
     display: none;
   }
-  .mobile-version-wrap, .mobile-footer {
+  .mobile-version-container, .mobile-footer {
     display: block;
   }
 
@@ -17,11 +17,11 @@
     background: url("../images/left-image_smaller.jpg") no-repeat;
     background-size: cover;
   }
-  .right-container {
+  .right-side {
     background: none;
     margin-left: 0;
     width: 100%;
-    .main-content {
+    .right-side__main-content {
       background: rgba(255, 255, 255, 0.9);
       padding: 15px;
     }

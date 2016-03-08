@@ -6,14 +6,14 @@
   //higher than 960px switch to desktop version
 
   //mobile
-  .mobile-version-wrap, .mobile-footer {
+  .mobile-version-container, .mobile-footer {
     display: none;
   }
 
-  .sidebar, .left-fixed-container, .desktop-footer {
+  .midle-menu-container, .left-side, .desktop-footer {
     display: block;
   }
-  .right-container {
+  .right-side {
     img {
       float: left;
       margin-right: 15px;

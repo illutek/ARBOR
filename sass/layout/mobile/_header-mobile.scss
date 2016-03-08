@@ -2,22 +2,21 @@
 // @@ ++ Header mobile
 //=======================
 
-.mobile-header {
+.mobile-version__header {
   background: url("../images/background-header_nav.jpg") no-repeat;
   background-color: $newLogoGreen;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 50px;
-  .mobile-sitename {
+  .mobile-version__sitename {
     h1 {
       padding: 10px 0;
       font-size: $h1Standard; //40px/16px
       color: $newGreenMain;
     }
   }
-  .mobile-core-business {
+  .mobile-version__slogan {
     padding-bottom: 15px;
-    //font-family: 'Rubik', sans-serif;
     font-weight: bold;
   }
 }

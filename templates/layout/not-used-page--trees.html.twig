@@ -6,25 +6,25 @@
 
     <div class="container-wrap">
         <!-- left side with logo-sitename and menu -->
-        <div class="left-fixed-container trees">
+        <div class="left-side trees">
             <aside>
-                <div class="row site-info">
-                    <div class="col-md-12 logo">
+                <div class="row left-side__site-info">
+                    <div class="col-md-12 site-branding__logo">
                         <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
                             <img src="{{ base_path ~ directory }}/logo_c7d401.png" alt="{{ 'Home'|t }}">
                         </a>
                     </div>
 
                     <div class="col-md-12">
-                        <div class="core-business">
+                        <div class="site-branding__slogan">
                             <span>boomchirurgie en tuinonderhoud</span>
                         </div>
                     </div>
-                    <div class="col-md-12 site-name">
+                    <div class="col-md-12 site-branding__name">
                         <span>ARBOR-SERVICE</span>
                     </div>
                 </div>
-                <div class="col-md-12 menu-container">
+                <div class="col-md-12 left-site__menu-container">
                     <div class="main-menu">
                         <ul>
                             <li><a href="{{ path('<front>') }}" rel="home">Home</a></li>
@@ -34,11 +34,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="copyright-desktop">&copy; ARBOR-SERVICE 2016</div>
+                <div class="left-side__copyright">&copy; ARBOR-SERVICE 2016</div>
             </aside>
         </div>
         <!-- navigation tree -->
-        <div class="sidebar">
+        <div class="midle-menu-container">
             <ul>
                 <li><a href="{{ base_path }}snoeien-van-bomen">Snoeien van bomen</a></li>
                 <li><a href="#">Vellen van gevaarlijke bomen</a></li>
@@ -58,7 +58,7 @@
         </div>
 
         <!-- enkel zichtbaar bij minder dan 960px-->
-        <div class="mobile-version-wrap">
+        <div class="mobile-version-container">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -106,19 +106,19 @@
                 <!-- /.container-fluid -->
             </nav>
 
-            <header class="mobile-header">
-                <div class="mobile-sitename">
+            <header class="mobile-version__header">
+                <div class="mobile-version__sitename">
                     <h1>ARBOR SERVICE</h1>
                 </div>
-                <div class="mobile-core-business">
+                <div class="mobile-version__slogan">
                     <span>boomchirurgie en tuinonderhoud</span>
                 </div>
             </header>
         </div><!-- end of mobile-version-wrap -->
 
         {# main content in de right-container is ook enkel zichtbaar bij mobile toestellen 960px #}
-        <div class="container right-container">
-            <aside class="main-content">
+        <div class="container right-side">
+            <aside class="right-side__main-content">
                 {# Action Links #}
                 {% if action_links %}
                     {% block action_links %}
@@ -147,7 +147,7 @@
                 </div>
                 <!-- contact gegevens en facebook banner-->
                 <!-- wordt een include wordt onderaan op elke pagina getoond -->
-                <aside class="contact-facebook-wrapper">
+                <aside class="desktop-footer__contact-facebook-wrap">
                     <div class="row">
                         <div class="col-md-6 contact-wrap">
                             <p>Joey Liberloo<br>
@@ -157,7 +157,7 @@
                                 joey.lib@hotmail.com</p>
                         </div>
 
-                        <div class="col-md-6 facebook-wrap">
+                        <div class="col-md-6 desktop-footer__facebook-wrap">
                             <div class="fb-page" data-href="https://www.facebook.com/arborservice"
                                  data-tabs="" data-small-header="false"
                                  data-adapt-container-width="true"
@@ -183,12 +183,12 @@
                     3583 Paal-Beringen<br>
                     joey.lib@hotmail.com</p>
 
-                <div class="gsm">
+                <div class="mobile-footer__gsm">
                     <a href="tel:+32491550999" class="btn btn-default">
                         +32491550999
                     </a>
                 </div>
-                <div class="copyright">
+                <div class="mobile-footer__copyright">
                     <!-- printen van het jaar omzetten in php -->
                     <!-- <?php echo date("Y"); ?> -->
                     &copy; ARBOR-SERVICE 2016

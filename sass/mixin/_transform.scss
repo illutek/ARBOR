@@ -1,5 +1,5 @@
 //================================
-// @@ ++ Mixin
+// @@ ++ Mixin transform
 //================================
 // generic transform
 // use @include transform(x);
@@ -39,13 +39,4 @@
   -ms-transform-origin: $origin;
   -webkit-transform-origin: $origin;
   transform-origin: $origin;
-}
-
-//transition
-// use @include transition(xs); value + s
-@mixin transition ($transform) {
-  -webkit-transition: all $transform ease;
-  -moz-transition: all $transform ease;
-  -o-transition: all $transform ease;
-  -ms-transition: all $transform ease;
 }
