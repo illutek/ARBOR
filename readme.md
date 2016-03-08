@@ -2,6 +2,8 @@
 A Drupal8 theme for Joey. A tree care and gardening service.
 
 ##Structure
+![Screenshot](screenshot.png)  
+
 Splitscreen layout voor de desktop versie, voor de mobile versie wordt enkel de rechterkant getoond.
 
 ###Menu
