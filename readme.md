@@ -22,16 +22,16 @@ Deze via de node.html.twig uitgeschakeld, door de if structuur ´´´if not page
 Ook enkel zichtbaar voor de role administrator.
 
 ###SASS
-![SASS logo](/images/sass.jpg)
+![SASS logo](/images/sass.png)  
 De SMACSS structuur aangehouden, en voorbeeld op github om dit bij een volgend project te hergebruiken 
 https://github.com/illutek/sass-directory
 
 ####SMACSS
-![SMACSS logo](/images/SMACSS.jpg)
+![SMACSS logo](/images/SMACSS.jpg)  
 https://www.drupal.org/taxonomy/term/40340
 
 ####BEM
-![BEM logo](/images/bem-logo.jpg)
+![BEM logo](/images/bem-logo.jpg)  
 Alle css class in de BEM format
 http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
