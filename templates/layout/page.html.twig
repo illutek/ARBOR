@@ -109,7 +109,6 @@
         #}
         <aside class="right-side">
             <div class="right-side__main-content">
-                <main>
                     {# Action Links #}
                     {% if action_links %}
                         {% block action_links %}
@@ -129,7 +128,6 @@
                         <a id="main-content"></a>
                         {{ page.content }}
                     {% endblock %}
-                </main>
             </div>
 
             {# visible on every page but not on the mobile version #}
@@ -164,8 +162,7 @@
                 <address>
                     {% include directory ~ '/templates/partials/contact_data.inc.twig' %}
                     <div class="mobile-footer__gsm">
-                        <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}"
-                           class="btn btn-default">
+                        <a href="tel:{% include directory ~ '/templates/partials/gsm.inc.twig' %}" class="btn btn-default">
                             <i class="fa fa-phone-square fa-lg"></i> {% include directory ~ '/templates/partials/gsm.inc.twig' %}
                         </a>
                     </div>
