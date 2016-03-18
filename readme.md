@@ -83,7 +83,8 @@ Allebei methodes geven het zelfde resultaat
 
 Oproep font 'Open sans' verhuisd naar arbor.theme om de opmerking bij google page speedtest
 terwille te zijn, zonder resultaat.
-'Uw pagina heeft 5 blokkerende CSS-bronnen. Dit veroorzaakt vertraging bij het weergeven van uw pagina.'
+'Uw pagina heeft 5 blokkerende CSS-bronnen. Dit veroorzaakt vertraging bij het weergeven van uw pagina.'  
+
 ´´´
 /**
  * Implements hook_css_alter().
