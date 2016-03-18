@@ -18,7 +18,7 @@ _leftSideTrees.scss bestand zorgen dat de sidebare steeds zichtbaar is, dit via 
 via het inhoudstype 'trees' (class 'page-node-type-trees')
 
 ###Block pagetitle
-Deze via de node.html.twig uitgeschakeld, door de if structuur ´´´if not page´´´opzij te zetten.
+Deze via de node.html.twig uitgeschakeld, door de if structuur ```if not page``` opzij te zetten.
 
 ###Block tabs
 Ook enkel zichtbaar voor de role administrator.
@@ -65,18 +65,21 @@ vertoefd het submenu trees niet terug dichtklapt.
 ####Partials
 Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar/modulair 
 te houden.  
-Het include op de page.html.twig van een partial met volgende code
-´´´{% include directory ~ '/templates/partials/contact_data.inc.twig' %}´´´  
+Het include op de page.html.twig van een partial met volgende code  
+
+```{% include directory ~ '/templates/partials/contact_data.inc.twig' %}```
+
 
 ###Een aantal opmerkingen
 ####Include van google fonts
-In arbor.libraries.yml de link naar google fonts
+In arbor.libraries.yml de link naar google fonts  
+```
 '//fonts.googleapis.com/css?family=Rubik:400,500,900': { type: external }  
 '//fonts.googleapis.com/css?family=Open+Sans': { type: external }  
 
 https://fonts.googleapis.com/css?family=Rubik:400,500,900: { type: external }  
 https://fonts.googleapis.com/css?family=Open+Sans: { type: external }  
-
+```
 https://ffwagency.com/blog/managing-css-and-javascript-files-drupal-8-libraries  
 
 Allebei methodes geven het zelfde resultaat
