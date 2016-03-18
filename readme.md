@@ -108,6 +108,8 @@ function arbor_css_alter(&$css) {
 }
 ```
 
+Ook niet de oplossing, dan maar @font-fase daarmee is het probleem opgelost en 
+score pagespeed van 87% naar 89%.
 
 
 
