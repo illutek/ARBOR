@@ -85,7 +85,7 @@ Oproep font 'Open sans' verhuisd naar arbor.theme om de opmerking bij google pag
 terwille te zijn, zonder resultaat.
 'Uw pagina heeft 5 blokkerende CSS-bronnen. Dit veroorzaakt vertraging bij het weergeven van uw pagina.'  
 
-´´´
+```
 /**
  * Implements hook_css_alter().
  */
@@ -103,7 +103,8 @@ function arbor_css_alter(&$css) {
         'weight' => 2,
     );
 }
-´´´
+```
+
 
 
 
