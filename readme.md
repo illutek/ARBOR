@@ -81,6 +81,31 @@ https://ffwagency.com/blog/managing-css-and-javascript-files-drupal-8-libraries
 
 Allebei methodes geven het zelfde resultaat
 
+Oproep font 'Open sans' verhuisd naar arbor.theme om de opmerking bij google page speedtest
+terwille te zijn, zonder resultaat.
+'Uw pagina heeft 5 blokkerende CSS-bronnen. Dit veroorzaakt vertraging bij het weergeven van uw pagina.'
+´´´
+/**
+ * Implements hook_css_alter().
+ */
+function arbor_css_alter(&$css) {
+    // Add CDN Google fonts.
+    $googlefonts = '//fonts.googleapis.com/css?family=Open+Sans';
+    $css[$googlefonts] = array(
+        'data' => $googlefonts,
+        'type' => 'external',
+        'every_page' => TRUE,
+        'media' => 'all',
+        'preprocess' => FALSE,
+        'group' => CSS_AGGREGATE_THEME,
+        'browsers' => array('IE' => TRUE, '!IE' => TRUE),
+        'weight' => 2,
+    );
+}
+´´´
+
+
+
 
 
 
