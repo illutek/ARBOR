@@ -1,7 +1,11 @@
 globalstyle:
   css:
+    base:
+      '//fonts.googleapis.com/css?family=Rubik:400,500,900': { type: external }
+      '//fonts.googleapis.com/css?family=Open+Sans': { type: external }
     theme:
       css/style.css: {}
+      
 globaljs:
   js:
     js/bootstrap.min.js: {}

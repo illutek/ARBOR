@@ -1,9 +1,10 @@
-//=======================
+//========================================================================
 // @@ ++ Fonts
-//=======================
+// import on arbor.libraries.yml
+//========================================================================
 
-@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,900);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+//@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,900);
+//@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 //=========================
 // @@ ++ Vendor
@@ -18,24 +19,25 @@
 @import "base/_variable";
 @import "base/globals";
 
-//=========================
+//==================================
 // @@ ++ Mixin
-//=========================
+//==================================
 @import "mixin/opacity";
 @import "mixin/transform";
 @import "mixin/transition";
-//only for design reasons
+//outline only for design reasons
 @import "mixin/outline";
 
-//=========================
+//=============================================================================
 // @@ ++ Layout
-//=========================
+//=============================================================================
 @import "layout/theme";
 @import "layout/leftSide";
 @import "layout/rightSide";
 
 // @@ ++ The tree pages
-// only possible after setting a content type 'trees' extra class on body tag 'page-node-type-trees'
+// only possible after setting a content type 'trees' extra class on body tag
+// 'page-node-type-trees'
 @import "layout/leftSideTrees";
 
 // Mobile
@@ -43,9 +45,9 @@
 @import "layout/mobile/header-mobile";
 @import "layout/mobile/footer-mobile";
 
-//========================
+//===========================================
 // @@ ++ Components
-//========================
+//===========================================
 @import "components/main-menu-leftSide";
 @import "components/midle-menu";
 @import "components/sidebarToggler";
@@ -55,9 +57,9 @@
 // Mobile
 @import "components/mobile/nav-mobile";
 
-//=======================
+//=====================================================
 // @@ ++ State
-//=======================
+//=====================================================
 @import "state/media-switch-min961";
 @import "state/media-max1604";
 @import "state/media-max1281";

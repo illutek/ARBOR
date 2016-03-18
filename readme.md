@@ -68,6 +68,19 @@ te houden.
 Het include op de page.html.twig van een partial met volgende code
 ´´´{% include directory ~ '/templates/partials/contact_data.inc.twig' %}´´´  
 
+###Een aantal opmerkingen
+####Include van google fonts
+In arbor.libraries.yml de link naar google fonts
+'//fonts.googleapis.com/css?family=Rubik:400,500,900': { type: external }  
+'//fonts.googleapis.com/css?family=Open+Sans': { type: external }  
+
+https://fonts.googleapis.com/css?family=Rubik:400,500,900: { type: external }  
+https://fonts.googleapis.com/css?family=Open+Sans: { type: external }  
+
+https://ffwagency.com/blog/managing-css-and-javascript-files-drupal-8-libraries  
+
+Allebei methodes geven het zelfde resultaat
+
 
 
 
