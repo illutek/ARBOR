@@ -73,6 +73,9 @@ Het include op de page.html.twig van een partial met volgende code
 ###Een aantal opmerkingen
 ####Include van google fonts
 In arbor.libraries.yml de link naar google fonts  
+Geeft fout bij Google PageSpeed Insights.   
+'Uw pagina heeft 4 blokkerende CSS-bronnen. Dit veroorzaakt vertraging bij het weergeven van uw pagina.'  
+
 ```
 '//fonts.googleapis.com/css?family=Rubik:400,500,900': { type: external }  
 '//fonts.googleapis.com/css?family=Open+Sans': { type: external }  
@@ -82,11 +85,10 @@ https://fonts.googleapis.com/css?family=Open+Sans: { type: external }
 ```
 https://ffwagency.com/blog/managing-css-and-javascript-files-drupal-8-libraries  
 
-Allebei methodes geven het zelfde resultaat
+Allebei methodes geven hetzelfde resultaat
 
 Oproep font 'Open sans' verhuisd naar arbor.theme om de opmerking bij google page speedtest
 terwille te zijn, zonder resultaat.
-'Uw pagina heeft 5 blokkerende CSS-bronnen. Dit veroorzaakt vertraging bij het weergeven van uw pagina.'  
 
 ```
 /**
@@ -108,9 +110,32 @@ function arbor_css_alter(&$css) {
 }
 ```
 
-Ook niet de oplossing, dan maar @font-fase daarmee is het probleem opgelost en 
-score pagespeed van 87% naar 89%.
+Ook niet de oplossing, dan maar @font-fase daarmee is het probleem opgelost en score pagespeed van 87% naar 89%.
 
+```
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/OpenSans-Regular-webfont.eot');
+  src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+  url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+  url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rubikblack';
+  src: url('../fonts/rubik-black-webfont.eot');
+  src: url('../fonts/rubik-black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/rubik-black-webfont.woff2') format('woff2'),
+  url('../fonts/rubik-black-webfont.woff') format('woff'),
+  url('../fonts/rubik-black-webfont.ttf') format('truetype'),
+  url('../fonts/rubik-black-webfont.svg#rubikblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+```
 
 
 

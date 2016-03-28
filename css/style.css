@@ -7810,7 +7810,7 @@ h2 {
 .left-site__menu-container {
   text-align: right; }
   .left-site__menu-container .main-menu {
-    background: url("../images/background_nav.jpg") no-repeat;
+    background: url("../images/background_nav-min.jpg") no-repeat;
     filter: alpha(opacity=80);
     -ms-filter: "alpha(opacity=80)";
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
