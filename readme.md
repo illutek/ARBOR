@@ -23,6 +23,26 @@ Deze via de node.html.twig uitgeschakeld, door de if structuur ```if not page```
 ###Block tabs
 Ook enkel zichtbaar voor de role administrator.
 
+##Tools
+###Bootstrap
+![SASS logo](/images/bootstrap-logo.png)  
+Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of 
+all shapes, and projects of all sizes.
+
+###Photoshop CS6
+![SASS logo](/images/ph-cs-6.jpg)  
+Zowel de desktop- en mobile layout versie van de site met Photoshop opgezet.
+
+###GIT
+![SASS logo](/images/Git-Icon.png)  
+Git is a free and open source distributed version control system designed to handle everything from small to 
+very large projects with speed and efficiency.
+
+###PhpStorm 9.0
+![SASS logo](/images/PhpStorm-logo.png)  
+Als editor maar ook als css compiler (Ruby), ook ftp (Remote host), voordeel tegenover bv Filezilla, via synchronize
+zie je onmiddelijk wat het verschil is tussen de locale en remote versies.
+
 ###SASS
 ![SASS logo](/images/sass.png)  
 De SMACSS structuur aangehouden, en voorbeeld op github om dit bij een volgend project te hergebruiken 
