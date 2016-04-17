@@ -27,11 +27,14 @@ Ook enkel zichtbaar voor de role administrator.
 ###Bootstrap
 ![SASS logo](/images/bootstrap-logo.png)  
 Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of 
-all shapes, and projects of all sizes.
+all shapes, and projects of all sizes.  
+http://getbootstrap.com/
 
 ###Photoshop CS6
 ![SASS logo](/images/ph-cs-6.jpg)  
-Zowel de desktop- en mobile layout versie van de site met Photoshop opgezet.
+Ontwerp van de site met Photoshop CS6. 
+Overzicht van voorstellen op dropbox  
+https://www.dropbox.com/sh/fgmsatyajys6baz/AAB-_LUKQ-OBPGW0S6wxQUD9a?dl=0
 
 ###GIT
 ![SASS logo](/images/Git-Icon.png)  
@@ -41,21 +44,37 @@ very large projects with speed and efficiency.
 ###PhpStorm 9.0
 ![SASS logo](/images/PhpStorm-logo.png)  
 Als editor maar ook als css compiler (Ruby), ook ftp (Remote host), voordeel tegenover bv Filezilla, via synchronize
-zie je onmiddelijk wat het verschil is tussen de locale en remote versies.
+zie je onmiddelijk wat het verschil is tussen de locale en remote versies.  
+https://www.jetbrains.com/phpstorm/?fromMenu
 
 ###SASS
 ![SASS logo](/images/sass.png)  
-De SMACSS structuur aangehouden, en voorbeeld op github om dit bij een volgend project te hergebruiken 
-https://github.com/illutek/sass-directory
+Gewoon css schrijven is niet meer aan de orde, het complileren van scss naar css via phpStrom (Ruby)
+http://sass-lang.com/
+
 
 ####SMACSS
 ![SMACSS logo](/images/SMACSS.jpg)  
+De SMACSS structuur aangehouden, en voorbeeld op github https://github.com/illutek/sass-directory om dit 
+bij een volgend project te hergebruiken.  
+- sass
+  - base
+  - components
+  - layout
+  - misc
+  - mixin
+  - state
+  - theme
+  - vendor
+  
+SMACSS identifies 5 types of style rules namely base, layout, module, state, and theme
 https://www.drupal.org/taxonomy/term/40340
 
 ####BEM
 ![BEM logo](/images/bem-logo.jpg)  
 Alle css class in de BEM format
-http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/  
+https://en.bem.info/articles/why-bem-in-a-nutshell/
 
 ####Templates
 Ook bij de templates een directory aangehouden  
@@ -74,20 +93,19 @@ Ook bij de templates een directory aangehouden
 Alle opgedeeld in verschillende files onder de directory 'state'
   
 ####Page.html.twig
-Veel vuldig gebruik gemaakt van includes, dit om bij een volgend project een aantal dingen gemakkelijk te hergebruiken.
+Veelvuldig gebruik gemaakt van includes, dit om bij een volgend project een aantal dingen gemakkelijk te hergebruiken.
+
+#####Partials
+Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar/modulair 
+te houden.  
+Het include op de page.html.twig van een partial met volgende code  
+
+```{% include directory ~ '/templates/partials/contact_data.inc.twig' %}```  
 
 #### Inhoudstypes
 'trees' - alle inhoud over boomverzorging,  hierdoor een extra class aan de body tag nl. 'page-node-type-trees'
 één extra scss bestand '_leftSideTrees.scss' zorgt ervoor dat zolang de bezoeker op deze boomverzorging pagina's
 vertoefd het submenu trees niet terug dichtklapt.
-
-
-####Partials
-Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar/modulair 
-te houden.  
-Het include op de page.html.twig van een partial met volgende code  
-
-```{% include directory ~ '/templates/partials/contact_data.inc.twig' %}```
 
 
 ###Een aantal opmerkingen
@@ -156,6 +174,8 @@ Ook niet de oplossing, dan maar @font-fase daarmee is het probleem opgelost en s
   font-style: normal;
 }
 ```
+
+
 
 
 
