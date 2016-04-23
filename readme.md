@@ -12,7 +12,7 @@ te tonen, dit schuifsysteem enkel met CSS, een tutorial op https://github.com/il
 
 ###Bomenpagina's
 De sidebar (submenu bomen) zal altijd zichtbaar moeten blijven, dus beste manier is om een aparte page aan te maken 
-page--bomen.topl.php bijvoorbeeld (page--bomen.html.twig), dit hebben we niet gedaan
+page--bomen.tpl.php bijvoorbeeld (page--bomen.html.twig), dit hebben we niet gedaan
 Een extra class toegevoegd aan left-fixed-container, nl. trees op de bomen html pagina's, met een extra 
 _leftSideTrees.scss bestand zorgen dat de sidebare steeds zichtbaar is, dit via de extra class dat de pagina meekrijgt
 via het inhoudstype 'trees' (class 'page-node-type-trees')
@@ -70,6 +70,9 @@ bij een volgend project te hergebruiken.
 SMACSS identifies 5 types of style rules namely base, layout, module, state, and theme
 https://www.drupal.org/taxonomy/term/40340
 
+####Mediaquery's
+Alle opgedeeld in verschillende files onder de directory 'state'
+
 ####BEM
 ![BEM logo](/images/bem-logo.jpg)  
 Alle css class in de BEM format
@@ -89,14 +92,11 @@ Ook bij de templates een directory aangehouden
   - user
   - views
   
-####Mediaquery's
-Alle opgedeeld in verschillende files onder de directory 'state'
-  
 ####Page.html.twig
 Veelvuldig gebruik gemaakt van includes, dit om bij een volgend project een aantal dingen gemakkelijk te hergebruiken.
 
 #####Partials
-Partials is een eigen iets, plaats daar verschillende onderdelen van de page.html.twig om deze compact/leesbaar/modulair 
+Plaats hier verschillende onderdelen van de page.html.twig om deze compact/leesbaar/modulair 
 te houden.  
 Het include op de page.html.twig van een partial met volgende code  
 
@@ -107,6 +107,12 @@ Het include op de page.html.twig van een partial met volgende code
 één extra scss bestand '_leftSideTrees.scss' zorgt ervoor dat zolang de bezoeker op deze boomverzorging pagina's
 vertoefd het submenu trees niet terug dichtklapt.
 
+####Dry - Don't repeat yourself
+TODO 
+- _leftSideTrees.scss
+- _sidebarToggler.scss
+
+https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 ###Een aantal opmerkingen
 ####Include van google fonts
