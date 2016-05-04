@@ -11,3 +11,8 @@ function arbor_preprocess_page(&$variables)
     $variables['site_name'] = \Drupal::config('system.site')->get('name');
     $variables['site_slogan'] = \Drupal::config('system.site')->get('slogan');
 }
+
+function arbor_preprocess_node(&$variables)
+{
+    $variables['site_nameNode'] = \Drupal::config('system.site')->get('name');
+}

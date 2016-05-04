@@ -63,29 +63,34 @@
  *   in different view modes.
  */
 #}
-{%
-  set classes = [
-    'node',
-    'node--type-' ~ node.bundle|clean_class,
-    node.isPromoted() ? 'node--promoted',
-    node.isSticky() ? 'node--sticky',
-    not node.isPublished() ? 'node--unpublished',
-    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
-  ]
-%}
+{% set classes = [
+'node',
+'node--type-' ~ node.bundle|clean_class,
+node.isPromoted() ? 'node--promoted',
+node.isSticky() ? 'node--sticky',
+not node.isPublished() ? 'node--unpublished',
+view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+] %}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
 
-  {{ title_prefix }}
-  {# {% if not page %} #}
+    {{ title_prefix }}
+    {# {% if not page %} #}
     <h2{{ title_attributes }}>
-     ARBOR-SERVICE <br>{{ label }}
+        {#
+        /**
+        * the if not page in comment we use the teaser as full node
+        * site_nameNode variabele from arbor.theme
+        * on each node we print the site name before the node title
+        */
+        #}
+        {{ site_nameNode }} <br>{{ label }}
     </h2>
-  {# {% endif %} #}
-  {{ title_suffix }}
+    {# {% endif %} #}
+    {{ title_suffix }}
 
-  <div{{ content_attributes.addClass('node__content') }}>
-    {{ content }}
-  </div>
+    <div{{ content_attributes.addClass('node__content') }}>
+        {{ content }}
+    </div>
 
 </article>
