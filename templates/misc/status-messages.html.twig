@@ -1,13 +1,28 @@
-{% for type, messages in message_list %}
-    <div role="contentinfo" aria-label="{{ status_headings[type] }}"{{ attributes|without('role', 'aria-label') }}>
+{#
+/**
+ * Created by Stefan on 22/05/2016.
+ */
+#}
+
+<div class="">
+    {% for type, messages in message_list %}
+
+        {#
+        /**
+        * depending on an error or a allert is the correct
+        * class added
+        */
+        #}
         {% if type == 'error' %}
-        <div role="alert">
-            {% endif %}
-            {% if status_headings[type] %}
-                <h2 class="visually-hidden">{{ status_headings[type] }}</h2>
-            {% endif %}
+            {% set classes = ['alert', 'alert-danger', 'alert--' ~ type] %}
+        {% else %}
+            {% set classes = ['alert', 'alert-success', 'alert--' ~ type] %}
+        {% endif %}
+
+        <div {{ attributes.addClass(classes) }} role="alert">
             {% if messages|length > 1 %}
                 <ul>
+                    {# for loop ensures that multiple message can be printed#}
                     {% for message in messages %}
                         <li>{{ message }}</li>
                     {% endfor %}
@@ -15,8 +30,10 @@
             {% else %}
                 {{ messages|first }}
             {% endif %}
-            {% if type == 'error' %}
         </div>
-        {% endif %}
-    </div>
-{% endfor %}
+
+        {# Remove type specific classes #}
+        {{ attributes.removeClass(classes) }}
+
+    {% endfor %}
+</div>
