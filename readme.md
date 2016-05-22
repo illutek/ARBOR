@@ -114,6 +114,11 @@ TODO
 
 https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
+###Working With Twig Templates
+Dit gewoon om de mogelijkheden te tonen van 'Overriding templates'
+Copie van status-messages.html.twig in core/modules/system/templates naar arbor/templates/misc
+
+
 ###Een aantal opmerkingen
 ####Include van google fonts
 In arbor.libraries.yml de link naar google fonts  
@@ -180,6 +185,8 @@ Ook niet de oplossing, dan maar @font-fase daarmee is het probleem opgelost en s
   font-style: normal;
 }
 ```
+
+
 
 
 
