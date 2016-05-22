@@ -116,7 +116,13 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 ###Working With Twig Templates
 Dit gewoon om de mogelijkheden te tonen van 'Overriding templates'
-Copie van status-messages.html.twig in core/modules/system/templates naar arbor/templates/misc
+Copie van status-messages.html.twig in core/modules/system/templates naar arbor/templates/misc met een aantal
+aanpassingen wordt,  
+Drupal default alert
+![alert default](/images/allert_default.jpg)
+
+Een Bootstrap alert
+![alert bootstrap](/images/allert_bootstrap.jpg)
 
 
 ###Een aantal opmerkingen
