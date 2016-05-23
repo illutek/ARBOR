@@ -192,6 +192,22 @@ Ook niet de oplossing, dan maar @font-fase daarmee is het probleem opgelost en s
 }
 ```
 
+###Linken
+Refactor Your CSS  
+https://www.sitepoint.com/css-architectures-refactor-your-css/
+
+CSS Architectures, Part 1  
+https://msdn.microsoft.com/en-us/magazine/jj983725.aspx
+
+CSS Architectures, Part 2  
+https://msdn.microsoft.com/en-us/magazine/dn194516.aspx
+
+My (Simple) Workflow To Design And Develop A Portfolio Website  
+https://www.smashingmagazine.com/2013/06/workflow-design-develop-modern-portfolio-website/
+
+Understanding Variable Scope in Sass  
+http://webdesign.tutsplus.com/articles/understanding-variable-scope-in-sass--cms-23498
+
 
 
 
