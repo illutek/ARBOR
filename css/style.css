@@ -7743,6 +7743,8 @@ h2 {
     margin-bottom: 50px;
     font-size: 4.8125em;
     text-transform: uppercase; }
+  .right-side a {
+    color: #009A3C; }
   .right-side aside ul {
     padding-left: 25px; }
   .right-side aside li {
