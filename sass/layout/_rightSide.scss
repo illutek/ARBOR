@@ -19,6 +19,9 @@
   }
   a {
     color: $newGreenMain;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   aside {
     ul {

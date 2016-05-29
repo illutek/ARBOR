@@ -7745,6 +7745,8 @@ h2 {
     text-transform: uppercase; }
   .right-side a {
     color: #009A3C; }
+    .right-side a:hover {
+      text-decoration: underline; }
   .right-side aside ul {
     padding-left: 25px; }
   .right-side aside li {
